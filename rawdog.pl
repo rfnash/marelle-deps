@@ -4,3 +4,4 @@
 %
 pkg('rawdog').
 installs_with_yaourt('rawdog', 'rawdog').
+installs_with_apt('rawdog', 'rawdog').

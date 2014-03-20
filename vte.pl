@@ -4,3 +4,4 @@
 %
 pkg('vte').
 installs_with_pacman('vte', 'vte').
+installs_with_apt('vte', 'vte').

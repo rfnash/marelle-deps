@@ -4,3 +4,4 @@
 %
 pkg('gstreamer0.10-base-plugins').
 installs_with_pacman('gstreamer0.10-base-plugins', 'gstreamer0.10-base-plugins').
+installs_with_apt('gstreamer0.10-base-plugins', 'gstreamer0.10-base-plugins').

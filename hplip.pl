@@ -4,3 +4,4 @@
 %
 pkg('hplip').
 installs_with_pacman('hplip', 'hplip').
+installs_with_apt('hplip', 'hplip').

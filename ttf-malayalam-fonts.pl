@@ -4,3 +4,4 @@
 %
 pkg('ttf-malayalam-fonts').
 installs_with_yaourt('ttf-malayalam-fonts', 'ttf-malayalam-fonts').
+installs_with_apt('ttf-malayalam-fonts', 'ttf-malayalam-fonts').

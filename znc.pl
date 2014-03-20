@@ -4,3 +4,4 @@
 %
 pkg('znc').
 installs_with_pacman('znc', 'znc').
+installs_with_apt('znc', 'znc').

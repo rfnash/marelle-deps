@@ -4,3 +4,4 @@
 %
 pkg('cronie').
 installs_with_pacman('cronie', 'cronie').
+installs_with_apt('cronie', 'cronie').

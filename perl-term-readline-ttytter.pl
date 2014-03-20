@@ -4,3 +4,4 @@
 %
 pkg('perl-term-readline-ttytter').
 installs_with_pacman('perl-term-readline-ttytter', 'perl-term-readline-ttytter').
+installs_with_apt('perl-term-readline-ttytter', 'perl-term-readline-ttytter').

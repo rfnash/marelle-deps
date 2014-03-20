@@ -4,3 +4,4 @@
 %
 pkg('the_silver_searcher').
 installs_with_pacman('the_silver_searcher', 'the_silver_searcher').
+installs_with_apt('the_silver_searcher', 'the_silver_searcher').

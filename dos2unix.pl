@@ -4,3 +4,4 @@
 %
 pkg('dos2unix').
 installs_with_pacman('dos2unix', 'dos2unix').
+installs_with_apt('dos2unix', 'dos2unix').
