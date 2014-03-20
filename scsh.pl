@@ -2,5 +2,5 @@
 % scsh.pl
 % marelle-deps
 %
-pkg('scsh') :- platform(linux(debian)).
+pkg('scsh') :- platform(linux(sid)).
 installs_with_apt('scsh', 'scsh').

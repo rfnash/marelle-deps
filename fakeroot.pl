@@ -2,5 +2,5 @@
 % fakeroot.pl
 % marelle-deps
 %
-pkg('fakeroot') :- platform(linux(debian)).
+pkg('fakeroot') :- platform(linux(sid)).
 installs_with_apt('fakeroot', 'fakeroot').
