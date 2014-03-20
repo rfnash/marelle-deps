@@ -2,5 +2,6 @@
 % bogofilter.pl
 % marelle-deps
 %
-pkg('bogofilter') :- platform(linux(sid)).
+pkg('bogofilter').
+installs_with_pacman('bogofilter', 'bogofilter-libre').
 installs_with_apt('bogofilter', 'bogofilter').

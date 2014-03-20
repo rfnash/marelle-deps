@@ -2,5 +2,6 @@
 % snapper.pl
 % marelle-deps
 %
-pkg('snapper') :- platform(linux(sid)).
+pkg('snapper').
+installs_with_yaourt('snapper', 'snapper-git').
 installs_with_apt('snapper', 'snapper').

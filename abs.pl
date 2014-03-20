@@ -2,5 +2,5 @@
 % abs.pl
 % marelle-deps
 %
-pkg('abs') :- platform(linux(sid)).
-installs_with_apt('abs', 'abs').
+pkg('abs') :- platform(linux(arch)).
+installs_with_pacman('abs', 'abs').
