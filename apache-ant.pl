@@ -4,4 +4,4 @@
 %
 pkg('apache-ant').
 installs_with_pacman('apache-ant', 'apache-ant').
-installs_with_apt('apache-ant', 'apache-ant').
+installs_with_apt('apache-ant', 'ant').
