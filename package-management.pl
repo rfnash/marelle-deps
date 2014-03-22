@@ -1,10 +1,10 @@
 %
-% archlinux.pl
+% package-management.pl
 % marelle-deps
 %
 % Installs packages for working with Pacman, the ABS, and the AUR.
 
-meta_pkg('archlinux', [
+meta_pkg('package-management', [
     'abs',
     'archbootstrap-ee',
     'arch-install-scripts',
@@ -22,10 +22,12 @@ meta_pkg('archlinux', [
     'update-mirrorlist',
     'yaourt'
     ]) :- platform(linux(arch)).
-meta_pkg('archlinux', [
+meta_pkg('package-management', [
     'pacgraph',
     'packer',
-    'powerpill'
+    'powerpill',
+    'debfoster',
+    'deborphan'
     ]) :- platform(linux(sid)).
 
 pkg('abs') :- platform(linux(arch)).
@@ -93,3 +95,11 @@ installs_with_yaourt('update-mirrorlist', 'update-mirrorlist').
 
 pkg('yaourt') :- platform(linux(arch)).
 installs_with_pacman('yaourt', 'yaourt').
+
+
+pkg('debfoster') :- platform(linux(sid)).
+installs_with_apt('debfoster', 'debfoster').
+
+
+pkg('deborphan') :- platform(linux(sid)).
+installs_with_apt('deborphan', 'deborphan').
