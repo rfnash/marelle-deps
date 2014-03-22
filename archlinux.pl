@@ -4,6 +4,30 @@
 %
 % Installs packages for working with Pacman, the ABS, and the AUR.
 
+meta_pkg('archlinux', [
+    'abs',
+    'archbootstrap-ee',
+    'arch-install-scripts',
+    'aura-bin',
+    'aurphan',
+    'aurvote',
+    'findbrokenpkgs',
+    'namcap',
+    'pacaur',
+    'pacgraph',
+    'packer',
+    'pacman-color',
+    'pacmatic',
+    'powerpill',
+    'update-mirrorlist',
+    'yaourt'
+    ]) :- platform(linux(arch)).
+meta_pkg('archlinux', [
+    'pacgraph',
+    'packer',
+    'powerpill'
+    ]) :- platform(linux(sid)).
+
 pkg('abs') :- platform(linux(arch)).
 installs_with_pacman('abs', 'abs').
 
