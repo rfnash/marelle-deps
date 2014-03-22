@@ -3,6 +3,60 @@
 % marelle-deps
 %
 
+meta_pkg('fonts', [
+    'dina-font',
+    'otf-ipafont',
+    'powerline-fonts-git',
+    'profont',
+    'proggyfonts',
+    'tamsyn-font',
+    'terminus-font',
+    'termsyn',
+    'ttf-code2000',
+    'ttf-code2001',
+    'ttf-gentium',
+    'ttf-junicode',
+    'ttf-lklug',
+    'ttf-mac-fonts',
+    'ttf-malayalam-fonts',
+    'ttf-mph-2b-damase',
+    'ttf-symbola',
+    'ttf-unifont',
+    'xorg-fonts-100dpi-libre',
+    'xorg-fonts-75dpi-libre'
+    ]) :- platform(linux(arch)).
+meta_pkg('fonts', [
+    'dina-font',
+    'otf-ipafont',
+    'powerline-fonts-git',
+    'profont',
+    'proggyfonts',
+    'tamsyn-font',
+    'terminus-font',
+    'termsyn',
+    'ttf-code2000',
+    'ttf-code2001',
+    'ttf-gentium',
+    'ttf-junicode',
+    'ttf-lklug',
+    'ttf-mac-fonts',
+    'ttf-malayalam-fonts',
+    'ttf-mph-2b-damase',
+    'ttf-symbola',
+    'ttf-unifont',
+    'xorg-fonts-100dpi-libre',
+    'xorg-fonts-75dpi-libre',
+    'fonts-opensymbol',
+    'ttf-bitstream-vera',
+    'ttf-freefont',
+    'unifont',
+    'xfonts-100dpi',
+    'xfonts-intl-asian',
+    'xfonts-intl-european',
+    'xfonts-intl-japanese',
+    'xfonts-terminus'
+    ]) :- platform(linux(sid)).
+
 pkg('dina-font').
 installs_with_pacman('dina-font', 'dina-font').
 
