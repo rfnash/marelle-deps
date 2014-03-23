@@ -1,0 +1,1 @@
+office/xsane-gimp.pl

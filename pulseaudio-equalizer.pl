@@ -1,0 +1,1 @@
+media/pulseaudio-equalizer.pl

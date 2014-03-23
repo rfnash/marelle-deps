@@ -1,0 +1,1 @@
+system/firmware-intelwimax.pl

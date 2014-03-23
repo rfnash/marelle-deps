@@ -1,0 +1,1 @@
+net/claws-mail.pl

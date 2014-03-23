@@ -1,0 +1,1 @@
+libs/libglib2.0-doc.pl

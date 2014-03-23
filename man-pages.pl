@@ -1,0 +1,1 @@
+devel/man-pages.pl
