@@ -26,30 +26,18 @@ meta_pkg('fonts', [
     'xorg-fonts-75dpi-libre'
     ]) :- platform(linux(arch)).
 meta_pkg('fonts', [
-    'dina-font',
     'otf-ipafont',
-    'powerline-fonts-git',
-    'profont',
-    'proggyfonts',
-    'tamsyn-font',
-    'terminus-font',
-    'termsyn',
-    'ttf-code2000',
-    'ttf-code2001',
     'ttf-gentium',
     'ttf-junicode',
     'ttf-lklug',
-    'ttf-mac-fonts',
     'ttf-malayalam-fonts',
     'ttf-mph-2b-damase',
-    'ttf-symbola',
     'ttf-unifont',
-    'xorg-fonts-100dpi-libre',
-    'xorg-fonts-75dpi-libre',
     'fonts-opensymbol',
     'ttf-bitstream-vera',
-    'ttf-freefont',
+    'fonts-freefont-ttf',
     'unifont',
+    'xfonts-75dpi',
     'xfonts-100dpi',
     'xfonts-intl-asian',
     'xfonts-intl-european',
@@ -67,6 +55,7 @@ installs_with_apt('fonts-opensymbol', 'fonts-opensymbol').
 
 pkg('otf-ipafont').
 installs_with_pacman('otf-ipafont', 'otf-ipafont').
+installs_with_apt('otf-ipafont', 'otf-ipafont').
 
 
 pkg('powerline-fonts-git') :- platform(linux(arch)).
@@ -105,21 +94,22 @@ pkg('ttf-code2001').
 installs_with_yaourt('ttf-code2001', 'ttf-code2001').
 
 
-pkg('ttf-freefont') :- platform(linux(sid)).
-installs_with_apt('ttf-freefont', 'ttf-freefont').
+pkg('fonts-freefont-ttf') :- platform(linux(sid)).
+installs_with_apt('fonts-freefont-ttf', 'fonts-freefont-ttf').
 
 
 pkg('ttf-gentium').
 installs_with_pacman('ttf-gentium', 'ttf-gentium').
+installs_with_apt('ttf-gentium', 'fonts-sil-gentium').
 
 
 pkg('ttf-junicode').
 installs_with_pacman('ttf-junicode', 'ttf-junicode').
-
+installs_with_apt('ttf-junicode', 'fonts-junicode').
 
 pkg('ttf-lklug').
 installs_with_yaourt('ttf-lklug', 'ttf-lklug').
-
+installs_with_apt('ttf-lklug', 'fonts-lklug-sinhala').
 
 pkg('ttf-mac-fonts').
 installs_with_yaourt('ttf-mac-fonts', 'ttf-mac-fonts').
@@ -127,11 +117,12 @@ installs_with_yaourt('ttf-mac-fonts', 'ttf-mac-fonts').
 
 pkg('ttf-malayalam-fonts').
 installs_with_yaourt('ttf-malayalam-fonts', 'ttf-malayalam-fonts').
-installs_with_apt('ttf-malayalam-fonts', 'ttf-malayalam-fonts').
+installs_with_apt('ttf-malayalam-fonts', 'fonts-mlym').
 
 
 pkg('ttf-mph-2b-damase').
 installs_with_pacman('ttf-mph-2b-damase', 'ttf-mph-2b-damase').
+installs_with_apt('ttf-mph-2b-damase', 'fonts-mph-2b-damase').
 
 
 pkg('ttf-symbola').
@@ -146,6 +137,8 @@ installs_with_apt('ttf-unifont', 'ttf-unifont').
 pkg('unifont') :- platform(linux(sid)).
 installs_with_apt('unifont', 'unifont').
 
+pkg('xfonts-75dpi') :- platform(linux(sid)).
+installs_with_apt('xfonts-75dpi', 'xfonts-75dpi').
 
 pkg('xfonts-100dpi') :- platform(linux(sid)).
 installs_with_apt('xfonts-100dpi', 'xfonts-100dpi').
