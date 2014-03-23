@@ -63,8 +63,8 @@ installs_with_pacman('cgoban', 'cgoban').
 installs_with_apt('cgoban', 'cgoban').
 
 
-pkg('crossfire-client').
-installs_with_yaourt('crossfire-client', 'crossfire-client').
+pkg('crossfire-client') :- platform(linux(sid)).
+%installs_with_yaourt('crossfire-client', 'crossfire-client').
 installs_with_apt('crossfire-client', 'crossfire-client').
 
 
@@ -83,8 +83,8 @@ installs_with_yaourt('hyperrogue', 'hyperrogue').
 installs_with_apt('hyperrogue', 'hyperrogue').
 
 
-pkg('nethack-el').
-installs_with_yaourt('nethack-el', 'nethack-el').
+pkg('nethack-el') :- platform(linux(sid)).
+%installs_with_yaourt('nethack-el', 'nethack-el').
 installs_with_apt('nethack-el', 'nethack-el').
 
 
@@ -117,8 +117,8 @@ installs_with_pacman('wesnoth', 'wesnoth').
 installs_with_apt('wesnoth', 'wesnoth').
 
 
-pkg('xbattle').
-installs_with_pacman('xbattle', 'xbattle').
+pkg('xbattle') :- platform(linux(sid)).
+%installs_with_pacman('xbattle', 'xbattle').
 installs_with_apt('xbattle', 'xbattle').
 
 
