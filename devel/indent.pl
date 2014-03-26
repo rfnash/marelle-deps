@@ -2,6 +2,4 @@
 % indent.pl
 % marelle-deps
 %
-pkg('indent').
-installs_with_pacman('indent', 'indent').
-installs_with_apt('indent', 'indent').
+linux_pkg('indent', pacman('indent'), 'indent').

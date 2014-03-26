@@ -2,6 +2,4 @@
 % asciidoc.pl
 % marelle-deps
 %
-pkg('asciidoc').
-installs_with_pacman('asciidoc', 'asciidoc').
-installs_with_apt('asciidoc', 'asciidoc').
+linux_pkg('asciidoc', pacman('asciidoc'), 'asciidoc').

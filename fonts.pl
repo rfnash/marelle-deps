@@ -53,9 +53,7 @@ pkg('fonts-opensymbol', linux(sid)).
 installs_with_apt('fonts-opensymbol', 'fonts-opensymbol').
 
 
-pkg('otf-ipafont').
-installs_with_pacman('otf-ipafont', 'otf-ipafont').
-installs_with_apt('otf-ipafont', 'otf-ipafont').
+linux_pkg('otf-ipafont', pacman('otf-ipafont'), 'otf-ipafont').
 
 
 pkg('powerline-fonts-git', linux(arch)).
@@ -98,40 +96,28 @@ pkg('fonts-freefont-ttf', linux(sid)).
 installs_with_apt('fonts-freefont-ttf', 'fonts-freefont-ttf').
 
 
-pkg('ttf-gentium').
-installs_with_pacman('ttf-gentium', 'ttf-gentium').
-installs_with_apt('ttf-gentium', 'fonts-sil-gentium').
+linux_pkg('ttf-gentium', pacman('ttf-gentium'), 'fonts-sil-gentium').
 
 
-pkg('ttf-junicode').
-installs_with_pacman('ttf-junicode', 'ttf-junicode').
-installs_with_apt('ttf-junicode', 'fonts-junicode').
+linux_pkg('ttf-junicode', pacman('ttf-junicode'), 'fonts-junicode').
 
-pkg('ttf-lklug').
-installs_with_yaourt('ttf-lklug', 'ttf-lklug').
-installs_with_apt('ttf-lklug', 'fonts-lklug-sinhala').
+linux_pkg('ttf-lklug', yaourt('ttf-lklug'), 'fonts-lklug-sinhala').
 
 pkg('ttf-mac-fonts', linux(arch)).
 installs_with_yaourt('ttf-mac-fonts', 'ttf-mac-fonts').
 
 
-pkg('ttf-malayalam-fonts').
-installs_with_yaourt('ttf-malayalam-fonts', 'ttf-malayalam-fonts').
-installs_with_apt('ttf-malayalam-fonts', 'fonts-mlym').
+linux_pkg('ttf-malayalam-fonts', yaourt('ttf-malayalam-fonts'), 'fonts-mlym').
 
 
-pkg('ttf-mph-2b-damase').
-installs_with_pacman('ttf-mph-2b-damase', 'ttf-mph-2b-damase').
-installs_with_apt('ttf-mph-2b-damase', 'fonts-mph-2b-damase').
+linux_pkg('ttf-mph-2b-damase', pacman('ttf-mph-2b-damase'), 'fonts-mph-2b-damase').
 
 
 pkg('ttf-symbola', linux(arch)).
 installs_with_pacman('ttf-symbola', 'ttf-symbola').
 
 
-pkg('ttf-unifont').
-installs_with_yaourt('ttf-unifont', 'ttf-unifont').
-installs_with_apt('ttf-unifont', 'ttf-unifont').
+linux_pkg('ttf-unifont', yaourt('ttf-unifont'), 'ttf-unifont').
 
 
 pkg('unifont', linux(sid)).
@@ -154,11 +140,7 @@ pkg('xfonts-terminus', linux(sid)).
 installs_with_apt('xfonts-terminus', 'xfonts-terminus').
 
 
-pkg('xorg-fonts-100dpi').
-installs_with_pacman('xorg-fonts-100dpi', 'xorg-fonts-100dpi-libre').
-installs_with_apt('xorg-fonts-100dpi', 'xfonts-100dpi').
+linux_pkg('xorg-fonts-100dpi', pacman('xorg-fonts-100dpi-libre'), 'xfonts-100dpi').
 
 
-pkg('xorg-fonts-75dpi').
-installs_with_pacman('xorg-fonts-75dpi', 'xorg-fonts-75dpi-libre').
-installs_with_apt('xorg-fonts-75dpi', 'xfonts-75dpi').
+linux_pkg('xorg-fonts-75dpi', pacman('xorg-fonts-75dpi-libre'), 'xfonts-75dpi').

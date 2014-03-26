@@ -2,6 +2,4 @@
 % xbindkeys.pl
 % marelle-deps
 %
-pkg('xbindkeys').
-installs_with_pacman('xbindkeys', 'xbindkeys').
-installs_with_apt('xbindkeys', 'xbindkeys').
+linux_pkg('xbindkeys', pacman('xbindkeys'), 'xbindkeys').

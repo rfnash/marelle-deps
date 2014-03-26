@@ -2,6 +2,4 @@
 % feh.pl
 % marelle-deps
 %
-pkg('feh').
-installs_with_pacman('feh', 'feh').
-installs_with_apt('feh', 'feh').
+linux_pkg('feh', pacman('feh'), 'feh').

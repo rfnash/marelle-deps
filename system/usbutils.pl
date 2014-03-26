@@ -2,6 +2,4 @@
 % usbutils.pl
 % marelle-deps
 %
-pkg('usbutils').
-installs_with_pacman('usbutils', 'usbutils').
-installs_with_apt('usbutils', 'usbutils').
+linux_pkg('usbutils', pacman('usbutils'), 'usbutils').

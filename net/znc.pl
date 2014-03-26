@@ -2,6 +2,4 @@
 % znc.pl
 % marelle-deps
 %
-pkg('znc').
-installs_with_pacman('znc', 'znc').
-installs_with_apt('znc', 'znc').
+linux_pkg('znc', pacman('znc'), 'znc').

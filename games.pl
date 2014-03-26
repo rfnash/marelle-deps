@@ -41,22 +41,16 @@ meta_pkg('games', [
     'xmahjongg'
     ], linux(sid)).
 
-pkg('angband').
-installs_with_pacman('angband', 'angband').
-installs_with_apt('angband', 'angband').
+linux_pkg('angband', pacman('angband'), 'angband').
 
 
-pkg('boswars').
-installs_with_yaourt('boswars', 'boswars').
-installs_with_apt('boswars', 'boswars').
+linux_pkg('boswars', yaourt('boswars'), 'boswars').
 
 
 pkg('ccgo').
 installs_with_pacman('ccgo', 'ccgo').
 
-pkg('cgoban').
-installs_with_pacman('cgoban', 'cgoban').
-installs_with_apt('cgoban', 'cgoban').
+linux_pkg('cgoban', pacman('cgoban'), 'cgoban').
 
 
 pkg('crossfire-client', linux(sid)).
@@ -64,19 +58,13 @@ pkg('crossfire-client', linux(sid)).
 installs_with_apt('crossfire-client', 'crossfire-client').
 
 
-pkg('freedink').
-installs_with_yaourt('freedink', 'freedink').
-installs_with_apt('freedink', 'freedink').
+linux_pkg('freedink', yaourt('freedink'), 'freedink').
 
 
-pkg('gnubg').
-installs_with_pacman('gnubg', 'gnubg').
-installs_with_apt('gnubg', 'gnubg').
+linux_pkg('gnubg', pacman('gnubg'), 'gnubg').
 
 
-pkg('hyperrogue').
-installs_with_yaourt('hyperrogue', 'hyperrogue').
-installs_with_apt('hyperrogue', 'hyperrogue').
+linux_pkg('hyperrogue', yaourt('hyperrogue'), 'hyperrogue').
 
 
 pkg('nethack-el', linux(sid)).
@@ -84,33 +72,23 @@ pkg('nethack-el', linux(sid)).
 installs_with_apt('nethack-el', 'nethack-el').
 
 
-pkg('nethack-x11').
-installs_with_yaourt('nethack-x11', 'nethack-x11').
-installs_with_apt('nethack-x11', 'nethack-x11').
+linux_pkg('nethack-x11', yaourt('nethack-x11'), 'nethack-x11').
 
 
-pkg('oolite').
-installs_with_pacman('oolite', 'oolite').
-installs_with_apt('oolite', 'oolite').
+linux_pkg('oolite', pacman('oolite'), 'oolite').
 
 
-pkg('stone-soup').
-installs_with_pacman('stone-soup', 'stone-soup').
-installs_with_apt('stone-soup', 'crawl-tiles').
+linux_pkg('stone-soup', pacman('stone-soup'), 'crawl-tiles').
 
 
 pkg('terasology').
 installs_with_yaourt('terasology', 'terasology').
 
 
-pkg('tome').
-installs_with_yaourt('tome', 'tome2').
-installs_with_apt('tome', 'tome').
+linux_pkg('tome', yaourt('tome2'), 'tome').
 
 
-pkg('wesnoth').
-installs_with_pacman('wesnoth', 'wesnoth').
-installs_with_apt('wesnoth', 'wesnoth').
+linux_pkg('wesnoth', pacman('wesnoth'), 'wesnoth').
 
 
 pkg('xbattle', linux(sid)).
@@ -118,6 +96,4 @@ pkg('xbattle', linux(sid)).
 installs_with_apt('xbattle', 'xbattle').
 
 
-pkg('xmahjongg').
-installs_with_pacman('xmahjongg', 'xmahjongg').
-installs_with_apt('xmahjongg', 'xmahjongg').
+linux_pkg('xmahjongg', pacman('xmahjongg'), 'xmahjongg').

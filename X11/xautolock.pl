@@ -2,6 +2,4 @@
 % xautolock.pl
 % marelle-deps
 %
-pkg('xautolock').
-installs_with_pacman('xautolock', 'xautolock').
-installs_with_apt('xautolock', 'xautolock').
+linux_pkg('xautolock', pacman('xautolock'), 'xautolock').

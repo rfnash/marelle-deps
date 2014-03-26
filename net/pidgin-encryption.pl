@@ -2,6 +2,4 @@
 % pidgin-encryption.pl
 % marelle-deps
 %
-pkg('pidgin-encryption').
-installs_with_pacman('pidgin-encryption', 'pidgin-encryption').
-installs_with_apt('pidgin-encryption', 'pidgin-encryption').
+linux_pkg('pidgin-encryption', pacman('pidgin-encryption'), 'pidgin-encryption').

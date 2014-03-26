@@ -8,6 +8,4 @@ pkg('netsurf-fb', linux(sid)).
 installs_with_apt('netsurf-fb', 'netsurf-fb').
 
 
-pkg('netsurf').
-installs_with_pacman('netsurf', 'netsurf-libre').
-installs_with_apt('netsurf', 'netsurf-gtk').
+linux_pkg('netsurf', pacman('netsurf-libre'), 'netsurf-gtk').

@@ -2,8 +2,6 @@
 % ansible.pl
 % marelle-deps
 %
-pkg('ansible').
-installs_with_pacman('ansible', 'ansible').
-installs_with_apt('ansible', 'ansible').
+linux_pkg('ansible', pacman('ansible'), 'ansible').
 pkg('ansible-doc', linux(sid)).
 installs_with_apt('ansible-doc', 'ansible-doc').

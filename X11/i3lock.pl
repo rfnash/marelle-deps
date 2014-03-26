@@ -2,6 +2,4 @@
 % i3lock.pl
 % marelle-deps
 %
-pkg('i3lock').
-installs_with_pacman('i3lock', 'i3lock').
-installs_with_apt('i3lock', 'i3lock').
+linux_pkg('i3lock', pacman('i3lock'), 'i3lock').

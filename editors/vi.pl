@@ -2,6 +2,4 @@
 % vi.pl
 % marelle-deps
 %
-pkg('vi').
-installs_with_pacman('vi', 'vi').
-installs_with_apt('vi', 'vim-nox').
+linux_pkg('vi', pacman('vi'), 'vim-nox').

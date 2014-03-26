@@ -2,6 +2,4 @@
 % libtool-multilib.pl
 % marelle-deps
 %
-pkg('libtool').
-installs_with_pacman('libtool', 'libtool-multilib').
-installs_with_apt('libtool', 'libtool').
+linux_pkg('libtool', pacman('libtool-multilib'), 'libtool').

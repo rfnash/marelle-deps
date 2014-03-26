@@ -2,6 +2,4 @@
 % ebtables.pl
 % marelle-deps
 %
-pkg('ebtables').
-installs_with_pacman('ebtables', 'ebtables').
-installs_with_apt('ebtables', 'ebtables').
+linux_pkg('ebtables', pacman('ebtables'), 'ebtables').

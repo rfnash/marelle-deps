@@ -2,6 +2,4 @@
 % xorg-xlsfonts.pl
 % marelle-deps
 %
-pkg('xorg-xlsfonts').
-installs_with_pacman('xorg-xlsfonts', 'xorg-xlsfonts').
-installs_with_apt('xorg-xlsfonts', 'x11-utils').
+linux_pkg('xorg-xlsfonts', pacman('xorg-xlsfonts'), 'x11-utils').

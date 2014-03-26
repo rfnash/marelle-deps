@@ -2,6 +2,4 @@
 % smuxi.pl
 % marelle-deps
 %
-pkg('smuxi').
-installs_with_pacman('smuxi', 'smuxi').
-installs_with_apt('smuxi', 'smuxi').
+linux_pkg('smuxi', pacman('smuxi'), 'smuxi').

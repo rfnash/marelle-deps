@@ -2,6 +2,4 @@
 % dos2unix.pl
 % marelle-deps
 %
-pkg('dos2unix').
-installs_with_pacman('dos2unix', 'dos2unix').
-installs_with_apt('dos2unix', 'dos2unix').
+linux_pkg('dos2unix', pacman('dos2unix'), 'dos2unix').

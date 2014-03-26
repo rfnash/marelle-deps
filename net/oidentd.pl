@@ -2,6 +2,4 @@
 % oidentd.pl
 % marelle-deps
 %
-pkg('oidentd').
-installs_with_pacman('oidentd', 'oidentd').
-installs_with_apt('oidentd', 'oidentd').
+linux_pkg('oidentd', pacman('oidentd'), 'oidentd').

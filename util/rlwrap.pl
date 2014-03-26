@@ -2,6 +2,4 @@
 % rlwrap.pl
 % marelle-deps
 %
-pkg('rlwrap').
-installs_with_pacman('rlwrap', 'rlwrap').
-installs_with_apt('rlwrap', 'rlwrap').
+linux_pkg('rlwrap', pacman('rlwrap'), 'rlwrap').

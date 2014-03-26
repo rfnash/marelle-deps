@@ -3,6 +3,4 @@
 % marelle-deps
 %
 
-pkg('mutt').
-installs_with_yaourt('mutt', 'mutt-kz').
-installs_with_apt('mutt', 'mutt-patched').
+linux_pkg('mutt', yaourt('mutt-kz'), 'mutt-patched').

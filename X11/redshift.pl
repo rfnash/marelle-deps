@@ -2,6 +2,4 @@
 % redshift.pl
 % marelle-deps
 %
-pkg('redshift').
-installs_with_pacman('redshift', 'redshift').
-installs_with_apt('redshift', 'redshift').
+linux_pkg('redshift', pacman('redshift'), 'redshift').

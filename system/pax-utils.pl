@@ -2,6 +2,4 @@
 % pax-utils.pl
 % marelle-deps
 %
-pkg('pax-utils').
-installs_with_pacman('pax-utils', 'pax-utils').
-installs_with_apt('pax-utils', 'pax-utils').
+linux_pkg('pax-utils', pacman('pax-utils'), 'pax-utils').

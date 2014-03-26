@@ -2,6 +2,4 @@
 % freemind.pl
 % marelle-deps
 %
-pkg('freemind').
-installs_with_pacman('freemind', 'freemind').
-installs_with_apt('freemind', 'freemind').
+linux_pkg('freemind', pacman('freemind'), 'freemind').

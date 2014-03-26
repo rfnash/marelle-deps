@@ -2,6 +2,4 @@
 % lib32-sqlite.pl
 % marelle-deps
 %
-pkg('lib32-sqlite').
-installs_with_pacman('lib32-sqlite', 'lib32-sqlite').
-installs_with_apt('lib32-sqlite', 'lib32-sqlite').
+linux_pkg('lib32-sqlite', pacman('lib32-sqlite'), 'lib32-sqlite').

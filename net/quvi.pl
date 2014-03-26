@@ -2,6 +2,4 @@
 % quvi.pl
 % marelle-deps
 %
-pkg('quvi').
-installs_with_pacman('quvi', 'quvi').
-installs_with_apt('quvi', 'quvi').
+linux_pkg('quvi', pacman('quvi'), 'quvi').

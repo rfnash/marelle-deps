@@ -79,9 +79,7 @@ pkg('pacmatic', linux(arch)).
 installs_with_pacman('pacmatic', 'pacmatic').
 
 
-pkg('powerpill').
-installs_with_pacman('powerpill', 'powerpill').
-installs_with_apt('powerpill', 'powerpill').
+linux_pkg('powerpill', pacman('powerpill'), 'powerpill').
 
 
 pkg('update-mirrorlist', linux(arch)).
