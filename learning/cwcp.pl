@@ -2,5 +2,5 @@
 % cwcp.pl
 % marelle-deps
 %
-pkg('cwcp') :- platform(linux(sid)).
+pkg('cwcp', linux(sid)).
 installs_with_apt('cwcp', 'cwcp').

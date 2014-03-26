@@ -2,5 +2,5 @@
 % ash.pl
 % marelle-deps
 %
-pkg('ash') :- platform(linux(sid)).
+pkg('ash', linux(sid)).
 installs_with_apt('ash', 'ash').

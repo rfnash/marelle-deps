@@ -2,5 +2,5 @@
 % python-mock.pl
 % marelle-deps
 %
-pkg('python-mock') :- platform(linux(sid)).
+pkg('python-mock', linux(sid)).
 installs_with_apt('python-mock', 'python-mock').

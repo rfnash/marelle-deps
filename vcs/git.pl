@@ -2,5 +2,5 @@
 % git.pl
 % marelle-deps
 %
-pkg('git') :- platform(linux(sid)).
+pkg('git', linux(sid)).
 installs_with_apt('git', 'git').

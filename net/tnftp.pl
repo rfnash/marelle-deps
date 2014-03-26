@@ -2,5 +2,5 @@
 % tnftp.pl
 % marelle-deps
 %
-pkg('tnftp') :- platform(linux(sid)).
+pkg('tnftp', linux(sid)).
 installs_with_apt('tnftp', 'tnftp').

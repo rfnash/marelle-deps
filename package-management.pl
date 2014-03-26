@@ -21,61 +21,61 @@ meta_pkg('package-management', [
     'powerpill',
     'update-mirrorlist',
     'yaourt'
-    ]) :- platform(linux(arch)).
+    ], linux(arch)).
 meta_pkg('package-management', [
     'debfoster',
     'deborphan'
-    ]) :- platform(linux(sid)).
+    ], linux(sid)).
 
-pkg('abs') :- platform(linux(arch)).
+pkg('abs', linux(arch)).
 installs_with_pacman('abs', 'abs').
 
 
-pkg('archbootstrap-ee') :- platform(linux(arch)).
+pkg('archbootstrap-ee', linux(arch)).
 installs_with_yaourt('archbootstrap-ee', 'archbootstrap-ee').
 
 
-pkg('arch-install-scripts') :- platform(linux(arch)).
+pkg('arch-install-scripts', linux(arch)).
 installs_with_pacman('arch-install-scripts', 'arch-install-scripts').
 
 
-pkg('aura-bin') :- platform(linux(arch)).
+pkg('aura-bin', linux(arch)).
 installs_with_yaourt('aura-bin', 'aura-bin').
 
 
-pkg('aurphan') :- platform(linux(arch)).
+pkg('aurphan', linux(arch)).
 installs_with_pacman('aurphan', 'aurphan').
 
 
-pkg('aurvote') :- platform(linux(arch)).
+pkg('aurvote', linux(arch)).
 installs_with_pacman('aurvote', 'aurvote').
 
 
-pkg('findbrokenpkgs') :- platform(linux(arch)).
+pkg('findbrokenpkgs', linux(arch)).
 installs_with_yaourt('findbrokenpkgs', 'findbrokenpkgs').
 
 
-pkg('namcap') :- platform(linux(arch)).
+pkg('namcap', linux(arch)).
 installs_with_pacman('namcap', 'namcap').
 
 
-pkg('pacaur') :- platform(linux(arch)).
+pkg('pacaur', linux(arch)).
 installs_with_yaourt('pacaur', 'pacaur').
 
 
-pkg('pacgraph') :- platform(linux(arch)).
+pkg('pacgraph', linux(arch)).
 installs_with_pacman('pacgraph', 'pacgraph').
 
 
-pkg('packer') :- platform(linux(arch)).
+pkg('packer', linux(arch)).
 installs_with_pacman('packer', 'packer').
 
 
-pkg('pacman-color') :- platform(linux(arch)).
+pkg('pacman-color', linux(arch)).
 installs_with_yaourt('pacman-color', 'pacman-color').
 
 
-pkg('pacmatic') :- platform(linux(arch)).
+pkg('pacmatic', linux(arch)).
 installs_with_pacman('pacmatic', 'pacmatic').
 
 
@@ -84,17 +84,17 @@ installs_with_pacman('powerpill', 'powerpill').
 installs_with_apt('powerpill', 'powerpill').
 
 
-pkg('update-mirrorlist') :- platform(linux(arch)).
+pkg('update-mirrorlist', linux(arch)).
 installs_with_yaourt('update-mirrorlist', 'update-mirrorlist').
 
 
-pkg('yaourt') :- platform(linux(arch)).
+pkg('yaourt', linux(arch)).
 installs_with_pacman('yaourt', 'yaourt').
 
 
-pkg('debfoster') :- platform(linux(sid)).
+pkg('debfoster', linux(sid)).
 installs_with_apt('debfoster', 'debfoster').
 
 
-pkg('deborphan') :- platform(linux(sid)).
+pkg('deborphan', linux(sid)).
 installs_with_apt('deborphan', 'deborphan').

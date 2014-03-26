@@ -2,5 +2,5 @@
 % nautilus-dropbox.pl
 % marelle-deps
 %
-pkg('nautilus-dropbox') :- platform(linux(sid)).
+pkg('nautilus-dropbox', linux(sid)).
 installs_with_apt('nautilus-dropbox', 'nautilus-dropbox').

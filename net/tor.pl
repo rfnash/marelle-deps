@@ -2,5 +2,5 @@
 % tor.pl
 % marelle-deps
 %
-pkg('tor') :- platform(linux(sid)).
+pkg('tor', linux(sid)).
 installs_with_apt('tor', 'tor').

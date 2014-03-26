@@ -2,5 +2,5 @@
 % python-nose.pl
 % marelle-deps
 %
-pkg('python-nose') :- platform(linux(sid)).
+pkg('python-nose', linux(sid)).
 installs_with_apt('python-nose', 'python-nose').

@@ -17,7 +17,7 @@ meta_pkg('tex', [
     'texlive-pstricks',
     'texlive-publishers',
     'texlive-science'
-    ]) :- platform(linux(arch)).
+    ], linux(arch)).
 meta_pkg('tex', [
     'texlive',
     'texlive-bibtex-extra',
@@ -34,9 +34,9 @@ meta_pkg('tex', [
     'texlive-publishers',
     'texlive-science',
     'texlive-xetex'
-    ]) :- platform(linux(sid)).
+    ], linux(sid)).
 
-pkg('texlive') :- platform(linux(sid)).
+pkg('texlive', linux(sid)).
 installs_with_apt('texlive', 'texlive').
 
 
@@ -65,7 +65,7 @@ installs_with_pacman('texlive-generic-extra', 'texlive-genericextra').
 installs_with_apt('texlive-generic-extra', 'texlive-generic-extra').
 
 
-pkg('texlive-htmlxml') :- platform(linux(arch)).
+pkg('texlive-htmlxml', linux(arch)).
 installs_with_pacman('texlive-htmlxml', 'texlive-htmlxml').
 
 
@@ -74,7 +74,7 @@ installs_with_pacman('texlive-humanities', 'texlive-humanities').
 installs_with_apt('texlive-humanities', 'texlive-humanities').
 
 
-pkg('texlive-latex-extra') :- platform(linux(sid)).
+pkg('texlive-latex-extra', linux(sid)).
 installs_with_apt('texlive-latex-extra', 'texlive-latex-extra').
 
 
@@ -108,5 +108,5 @@ installs_with_pacman('texlive-science', 'texlive-science').
 installs_with_apt('texlive-science', 'texlive-science').
 
 
-pkg('texlive-xetex') :- platform(linux(sid)).
+pkg('texlive-xetex', linux(sid)).
 installs_with_apt('texlive-xetex', 'texlive-xetex').

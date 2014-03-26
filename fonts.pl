@@ -24,7 +24,7 @@ meta_pkg('fonts', [
     'ttf-unifont',
     'xorg-fonts-100dpi',
     'xorg-fonts-75dpi'
-    ]) :- platform(linux(arch)).
+    ], linux(arch)).
 meta_pkg('fonts', [
     'otf-ipafont',
     'ttf-gentium',
@@ -43,13 +43,13 @@ meta_pkg('fonts', [
     'xfonts-intl-european',
     'xfonts-intl-japanese',
     'xfonts-terminus'
-    ]) :- platform(linux(sid)).
+    ], linux(sid)).
 
 pkg('dina-font').
 installs_with_pacman('dina-font', 'dina-font').
 
 
-pkg('fonts-opensymbol') :- platform(linux(sid)).
+pkg('fonts-opensymbol', linux(sid)).
 installs_with_apt('fonts-opensymbol', 'fonts-opensymbol').
 
 
@@ -58,7 +58,7 @@ installs_with_pacman('otf-ipafont', 'otf-ipafont').
 installs_with_apt('otf-ipafont', 'otf-ipafont').
 
 
-pkg('powerline-fonts-git') :- platform(linux(arch)).
+pkg('powerline-fonts-git', linux(arch)).
 installs_with_yaourt('powerline-fonts-git', 'powerline-fonts-git').
 
 
@@ -82,19 +82,19 @@ pkg('termsyn').
 installs_with_yaourt('termsyn', 'termsyn').
 
 
-pkg('ttf-bitstream-vera') :- platform(linux(sid)).
+pkg('ttf-bitstream-vera', linux(sid)).
 installs_with_apt('ttf-bitstream-vera', 'ttf-bitstream-vera').
 
 
-pkg('ttf-code2000') :- platform(linux(arch)).
+pkg('ttf-code2000', linux(arch)).
 installs_with_yaourt('ttf-code2000', 'ttf-code2000').
 
 
-pkg('ttf-code2001') :- platform(linux(arch)).
+pkg('ttf-code2001', linux(arch)).
 installs_with_yaourt('ttf-code2001', 'ttf-code2001').
 
 
-pkg('fonts-freefont-ttf') :- platform(linux(sid)).
+pkg('fonts-freefont-ttf', linux(sid)).
 installs_with_apt('fonts-freefont-ttf', 'fonts-freefont-ttf').
 
 
@@ -111,7 +111,7 @@ pkg('ttf-lklug').
 installs_with_yaourt('ttf-lklug', 'ttf-lklug').
 installs_with_apt('ttf-lklug', 'fonts-lklug-sinhala').
 
-pkg('ttf-mac-fonts') :- platform(linux(arch)).
+pkg('ttf-mac-fonts', linux(arch)).
 installs_with_yaourt('ttf-mac-fonts', 'ttf-mac-fonts').
 
 
@@ -125,7 +125,7 @@ installs_with_pacman('ttf-mph-2b-damase', 'ttf-mph-2b-damase').
 installs_with_apt('ttf-mph-2b-damase', 'fonts-mph-2b-damase').
 
 
-pkg('ttf-symbola') :- platform(linux(arch)).
+pkg('ttf-symbola', linux(arch)).
 installs_with_pacman('ttf-symbola', 'ttf-symbola').
 
 
@@ -134,23 +134,23 @@ installs_with_yaourt('ttf-unifont', 'ttf-unifont').
 installs_with_apt('ttf-unifont', 'ttf-unifont').
 
 
-pkg('unifont') :- platform(linux(sid)).
+pkg('unifont', linux(sid)).
 installs_with_apt('unifont', 'unifont').
 
 
-pkg('xfonts-intl-asian') :- platform(linux(sid)).
+pkg('xfonts-intl-asian', linux(sid)).
 installs_with_apt('xfonts-intl-asian', 'xfonts-intl-asian').
 
 
-pkg('xfonts-intl-european') :- platform(linux(sid)).
+pkg('xfonts-intl-european', linux(sid)).
 installs_with_apt('xfonts-intl-european', 'xfonts-intl-european').
 
 
-pkg('xfonts-intl-japanese') :- platform(linux(sid)).
+pkg('xfonts-intl-japanese', linux(sid)).
 installs_with_apt('xfonts-intl-japanese', 'xfonts-intl-japanese').
 
 
-pkg('xfonts-terminus') :- platform(linux(sid)).
+pkg('xfonts-terminus', linux(sid)).
 installs_with_apt('xfonts-terminus', 'xfonts-terminus').
 
 

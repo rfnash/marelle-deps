@@ -2,5 +2,5 @@
 % firmware-intelwimax.pl
 % marelle-deps
 %
-pkg('firmware-intelwimax') :- platform(linux(sid)).
+pkg('firmware-intelwimax', linux(sid)).
 installs_with_apt('firmware-intelwimax', 'firmware-intelwimax').

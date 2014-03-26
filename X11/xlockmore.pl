@@ -2,5 +2,5 @@
 % xlockmore.pl
 % marelle-deps
 %
-pkg('xlockmore') :- platform(linux(sid)).
+pkg('xlockmore', linux(sid)).
 installs_with_apt('xlockmore', 'xlockmore').

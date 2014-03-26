@@ -2,5 +2,5 @@
 % aegis-doc.pl
 % marelle-deps
 %
-pkg('aegis-doc') :- platform(linux(sid)).
+pkg('aegis-doc', linux(sid)).
 installs_with_apt('aegis-doc', 'aegis-doc').

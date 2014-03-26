@@ -2,5 +2,5 @@
 % xutils.pl
 % marelle-deps
 %
-pkg('xutils') :- platform(linux(sid)).
+pkg('xutils', linux(sid)).
 installs_with_apt('xutils', 'xutils').

@@ -2,5 +2,5 @@
 % wpasupplicant.pl
 % marelle-deps
 %
-pkg('wpasupplicant') :- platform(linux(sid)).
+pkg('wpasupplicant', linux(sid)).
 installs_with_apt('wpasupplicant', 'wpasupplicant').

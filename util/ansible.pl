@@ -5,5 +5,5 @@
 pkg('ansible').
 installs_with_pacman('ansible', 'ansible').
 installs_with_apt('ansible', 'ansible').
-pkg('ansible-doc') :- platform(linux(sid)).
+pkg('ansible-doc', linux(sid)).
 installs_with_apt('ansible-doc', 'ansible-doc').

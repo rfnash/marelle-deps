@@ -2,5 +2,5 @@
 % pulseaudio.pl
 % marelle-deps
 %
-pkg('pulseaudio') :- platform(linux(sid)).
+pkg('pulseaudio', linux(sid)).
 installs_with_apt('pulseaudio', 'pulseaudio').

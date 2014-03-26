@@ -2,5 +2,5 @@
 % julia-doc.pl
 % marelle-deps
 %
-pkg('julia-doc') :- platform(linux(sid)).
+pkg('julia-doc', linux(sid)).
 installs_with_apt('julia-doc', 'julia-doc').

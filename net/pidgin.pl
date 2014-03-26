@@ -2,5 +2,5 @@
 % pidgin.pl
 % marelle-deps
 %
-pkg('pidgin') :- platform(linux(sid)).
+pkg('pidgin', linux(sid)).
 installs_with_apt('pidgin', 'pidgin').

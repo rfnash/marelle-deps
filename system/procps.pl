@@ -2,5 +2,5 @@
 % procps.pl
 % marelle-deps
 %
-pkg('procps') :- platform(linux(sid)).
+pkg('procps', linux(sid)).
 installs_with_apt('procps', 'procps').

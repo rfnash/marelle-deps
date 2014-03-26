@@ -2,5 +2,5 @@
 % bash.pl
 % marelle-deps
 %
-pkg('bash') :- platform(linux(sid)).
+pkg('bash', linux(sid)).
 installs_with_apt('bash', 'bash').

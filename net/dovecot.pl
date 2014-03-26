@@ -5,21 +5,21 @@
 
 meta_pkg('dovecot', [
     'dovecot-all'
-    ]) :- platform(linux(arch)).
+    ], linux(arch)).
 
 meta_pkg('dovecot', [
     'dovecot-core',
     'dovecot-imapd'
-    ]) :- platform(linux(arch)).
+    ], linux(arch)).
 
 
-pkg('dovecot-core') :- platform(linux(sid)).
+pkg('dovecot-core', linux(sid)).
 installs_with_apt('dovecot-core', 'dovecot-core').
 
 
-pkg('dovecot-imapd') :- platform(linux(sid)).
+pkg('dovecot-imapd', linux(sid)).
 installs_with_apt('dovecot-imapd', 'dovecot-imapd').
 
 
-pkg('dovecot-all') :- platform(linux(arch)).
+pkg('dovecot-all', linux(arch)).
 installs_with_pacman('dovecot-all', 'dovecot').

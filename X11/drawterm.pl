@@ -2,5 +2,5 @@
 % drawterm.pl
 % marelle-deps
 %
-pkg('drawterm') :- platform(linux(sid)).
+pkg('drawterm', linux(sid)).
 installs_with_apt('drawterm', 'drawterm').

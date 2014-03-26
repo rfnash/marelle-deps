@@ -2,5 +2,5 @@
 % mtools.pl
 % marelle-deps
 %
-pkg('mtools') :- platform(linux(sid)).
+pkg('mtools', linux(sid)).
 installs_with_apt('mtools', 'mtools').

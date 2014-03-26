@@ -2,5 +2,5 @@
 % ack.pl
 % marelle-deps
 %
-pkg('ack') :- platform(linux(sid)).
+pkg('ack', linux(sid)).
 installs_with_apt('ack', 'ack').

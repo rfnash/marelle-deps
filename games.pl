@@ -21,7 +21,7 @@ meta_pkg('games', [
     'wesnoth',
     %'xbattle',
     'xmahjongg'
-    ]) :- platform(linux(arch)).
+    ], linux(arch)).
 
 meta_pkg('games', [
     'angband',
@@ -39,7 +39,7 @@ meta_pkg('games', [
     'wesnoth',
     'xbattle',
     'xmahjongg'
-    ]) :- platform(linux(sid)).
+    ], linux(sid)).
 
 pkg('angband').
 installs_with_pacman('angband', 'angband').
@@ -59,7 +59,7 @@ installs_with_pacman('cgoban', 'cgoban').
 installs_with_apt('cgoban', 'cgoban').
 
 
-pkg('crossfire-client') :- platform(linux(sid)).
+pkg('crossfire-client', linux(sid)).
 %installs_with_yaourt('crossfire-client', 'crossfire-client').
 installs_with_apt('crossfire-client', 'crossfire-client').
 
@@ -79,7 +79,7 @@ installs_with_yaourt('hyperrogue', 'hyperrogue').
 installs_with_apt('hyperrogue', 'hyperrogue').
 
 
-pkg('nethack-el') :- platform(linux(sid)).
+pkg('nethack-el', linux(sid)).
 %installs_with_yaourt('nethack-el', 'nethack-el').
 installs_with_apt('nethack-el', 'nethack-el').
 
@@ -113,7 +113,7 @@ installs_with_pacman('wesnoth', 'wesnoth').
 installs_with_apt('wesnoth', 'wesnoth').
 
 
-pkg('xbattle') :- platform(linux(sid)).
+pkg('xbattle', linux(sid)).
 %installs_with_pacman('xbattle', 'xbattle').
 installs_with_apt('xbattle', 'xbattle').
 

@@ -4,7 +4,7 @@
 %
 %
 
-pkg('netsurf-fb') :- platform(linux(sid)).
+pkg('netsurf-fb', linux(sid)).
 installs_with_apt('netsurf-fb', 'netsurf-fb').
 
 
