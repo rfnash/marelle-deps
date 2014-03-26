@@ -1,1 +1,0 @@
-net/netsurf-libre.pl

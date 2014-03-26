@@ -22,8 +22,8 @@ meta_pkg('fonts', [
     'ttf-mph-2b-damase',
     'ttf-symbola',
     'ttf-unifont',
-    'xorg-fonts-100dpi-libre',
-    'xorg-fonts-75dpi-libre'
+    'xorg-fonts-100dpi',
+    'xorg-fonts-75dpi'
     ]) :- platform(linux(arch)).
 meta_pkg('fonts', [
     'otf-ipafont',
@@ -37,8 +37,8 @@ meta_pkg('fonts', [
     'ttf-bitstream-vera',
     'fonts-freefont-ttf',
     'unifont',
-    'xfonts-75dpi',
-    'xfonts-100dpi',
+    'xorg-fonts-75dpi',
+    'xorg-fonts-100dpi',
     'xfonts-intl-asian',
     'xfonts-intl-european',
     'xfonts-intl-japanese',
@@ -86,11 +86,11 @@ pkg('ttf-bitstream-vera') :- platform(linux(sid)).
 installs_with_apt('ttf-bitstream-vera', 'ttf-bitstream-vera').
 
 
-pkg('ttf-code2000').
+pkg('ttf-code2000') :- platform(linux(arch)).
 installs_with_yaourt('ttf-code2000', 'ttf-code2000').
 
 
-pkg('ttf-code2001').
+pkg('ttf-code2001') :- platform(linux(arch)).
 installs_with_yaourt('ttf-code2001', 'ttf-code2001').
 
 
@@ -111,7 +111,7 @@ pkg('ttf-lklug').
 installs_with_yaourt('ttf-lklug', 'ttf-lklug').
 installs_with_apt('ttf-lklug', 'fonts-lklug-sinhala').
 
-pkg('ttf-mac-fonts').
+pkg('ttf-mac-fonts') :- platform(linux(arch)).
 installs_with_yaourt('ttf-mac-fonts', 'ttf-mac-fonts').
 
 
@@ -125,7 +125,7 @@ installs_with_pacman('ttf-mph-2b-damase', 'ttf-mph-2b-damase').
 installs_with_apt('ttf-mph-2b-damase', 'fonts-mph-2b-damase').
 
 
-pkg('ttf-symbola').
+pkg('ttf-symbola') :- platform(linux(arch)).
 installs_with_pacman('ttf-symbola', 'ttf-symbola').
 
 
@@ -136,12 +136,6 @@ installs_with_apt('ttf-unifont', 'ttf-unifont').
 
 pkg('unifont') :- platform(linux(sid)).
 installs_with_apt('unifont', 'unifont').
-
-pkg('xfonts-75dpi') :- platform(linux(sid)).
-installs_with_apt('xfonts-75dpi', 'xfonts-75dpi').
-
-pkg('xfonts-100dpi') :- platform(linux(sid)).
-installs_with_apt('xfonts-100dpi', 'xfonts-100dpi').
 
 
 pkg('xfonts-intl-asian') :- platform(linux(sid)).
@@ -160,9 +154,11 @@ pkg('xfonts-terminus') :- platform(linux(sid)).
 installs_with_apt('xfonts-terminus', 'xfonts-terminus').
 
 
-pkg('xorg-fonts-100dpi-libre').
-installs_with_pacman('xorg-fonts-100dpi-libre', 'xorg-fonts-100dpi-libre').
+pkg('xorg-fonts-100dpi').
+installs_with_pacman('xorg-fonts-100dpi', 'xorg-fonts-100dpi-libre').
+installs_with_apt('xorg-fonts-100dpi', 'xfonts-100dpi').
 
 
-pkg('xorg-fonts-75dpi-libre').
-installs_with_pacman('xorg-fonts-75dpi-libre', 'xorg-fonts-75dpi-libre').
+pkg('xorg-fonts-75dpi').
+installs_with_pacman('xorg-fonts-75dpi', 'xorg-fonts-75dpi-libre').
+installs_with_apt('xorg-fonts-75dpi', 'xfonts-75dpi').

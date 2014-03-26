@@ -4,4 +4,4 @@
 %
 pkg('wpa_supplicant').
 installs_with_pacman('wpa_supplicant', 'wpa_supplicant').
-installs_with_apt('wpa_supplicant', 'wpa_supplicant').
+installs_with_apt('wpa_supplicant', 'wpasupplicant').

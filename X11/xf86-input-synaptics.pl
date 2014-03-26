@@ -4,4 +4,4 @@
 %
 pkg('xf86-input-synaptics').
 installs_with_pacman('xf86-input-synaptics', 'xf86-input-synaptics').
-installs_with_apt('xf86-input-synaptics', 'xf86-input-synaptics').
+installs_with_apt('xf86-input-synaptics', 'xserver-xorg-input-synaptics').

@@ -1,5 +1,5 @@
 %
-% fonts.pl
+% games.pl
 % marelle-deps
 %
 
@@ -26,7 +26,6 @@ meta_pkg('games', [
 meta_pkg('games', [
     'angband',
     'boswars',
-    'ccgo',
     'cgoban',
     'crossfire-client',
     'freedink',
@@ -36,7 +35,6 @@ meta_pkg('games', [
     'nethack-x11',
     'oolite',
     'stone-soup',
-    'terasology',
     'tome',
     'wesnoth',
     'xbattle',
@@ -55,8 +53,6 @@ installs_with_apt('boswars', 'boswars').
 
 pkg('ccgo').
 installs_with_pacman('ccgo', 'ccgo').
-installs_with_apt('ccgo', 'ccgo').
-
 
 pkg('cgoban').
 installs_with_pacman('cgoban', 'cgoban').

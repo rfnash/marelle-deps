@@ -1,54 +1,58 @@
 %
-% texlive.pl
+% tex.pl
 % marelle-deps
 %
 
-meta_pkg('texlive', [
-    'texlive-bibtexextra',
-    'texlive-fontsextra-libre',
-    'texlive-formatsextra',
+meta_pkg('tex', [
+    'texlive-bibtex-extra',
+    'texlive-fonts-extra',
+    'texlive-formats-extra',
     'texlive-games',
-    'texlive-genericextra',
+    'texlive-generic-extra',
     'texlive-htmlxml',
     'texlive-humanities',
     'texlive-music',
     'texlive-pictures',
-    'texlive-plainextra',
+    'texlive-plain-extra',
     'texlive-pstricks',
     'texlive-publishers',
     'texlive-science'
     ]) :- platform(linux(arch)).
-meta_pkg('texlive', [
-    'texlive-bibtexextra',
-    'texlive-fontsextra-libre',
-    'texlive-formatsextra',
+meta_pkg('tex', [
+    'texlive',
+    'texlive-bibtex-extra',
+    'texlive-fonts-extra',
+    'texlive-formats-extra',
     'texlive-games',
-    'texlive-genericextra',
-    'texlive-htmlxml',
+    'texlive-generic-extra',
     'texlive-humanities',
     'texlive-latex-extra',
     'texlive-music',
     'texlive-pictures',
-    'texlive-plainextra',
+    'texlive-plain-extra',
     'texlive-pstricks',
     'texlive-publishers',
     'texlive-science',
     'texlive-xetex'
     ]) :- platform(linux(sid)).
 
-pkg('texlive-bibtexextra').
-installs_with_pacman('texlive-bibtexextra', 'texlive-bibtexextra').
-installs_with_apt('texlive-bibtexextra', 'texlive-bibtexextra').
+pkg('texlive') :- platform(linux(sid)).
+installs_with_apt('texlive', 'texlive').
 
 
-pkg('texlive-fontsextra-libre').
-installs_with_pacman('texlive-fontsextra-libre', 'texlive-fontsextra-libre').
-installs_with_apt('texlive-fontsextra-libre', 'texlive-fontsextra-libre').
+pkg('texlive-bibtex-extra').
+installs_with_pacman('texlive-bibtex-extra', 'texlive-bibtexextra').
+installs_with_apt('texlive-bibtex-extra', 'texlive-bibtex-extra').
 
 
-pkg('texlive-formatsextra').
-installs_with_pacman('texlive-formatsextra', 'texlive-formatsextra').
-installs_with_apt('texlive-formatsextra', 'texlive-formatsextra').
+pkg('texlive-fonts-extra').
+installs_with_pacman('texlive-fonts-extra', 'texlive-fontsextra-libre').
+installs_with_apt('texlive-fonts-extra', 'texlive-fonts-extra').
+
+
+pkg('texlive-formats-extra').
+installs_with_pacman('texlive-formats-extra', 'texlive-formatsextra').
+installs_with_apt('texlive-formats-extra', 'texlive-formats-extra').
 
 
 pkg('texlive-games').
@@ -56,14 +60,13 @@ installs_with_pacman('texlive-games', 'texlive-games').
 installs_with_apt('texlive-games', 'texlive-games').
 
 
-pkg('texlive-genericextra').
-installs_with_pacman('texlive-genericextra', 'texlive-genericextra').
-installs_with_apt('texlive-genericextra', 'texlive-genericextra').
+pkg('texlive-generic-extra').
+installs_with_pacman('texlive-generic-extra', 'texlive-genericextra').
+installs_with_apt('texlive-generic-extra', 'texlive-generic-extra').
 
 
-pkg('texlive-htmlxml').
+pkg('texlive-htmlxml') :- platform(linux(arch)).
 installs_with_pacman('texlive-htmlxml', 'texlive-htmlxml').
-installs_with_apt('texlive-htmlxml', 'texlive-htmlxml').
 
 
 pkg('texlive-humanities').
@@ -85,9 +88,9 @@ installs_with_pacman('texlive-pictures', 'texlive-pictures').
 installs_with_apt('texlive-pictures', 'texlive-pictures').
 
 
-pkg('texlive-plainextra').
-installs_with_pacman('texlive-plainextra', 'texlive-plainextra').
-installs_with_apt('texlive-plainextra', 'texlive-plainextra').
+pkg('texlive-plain-extra').
+installs_with_pacman('texlive-plain-extra', 'texlive-plainextra').
+installs_with_apt('texlive-plain-extra', 'texlive-plain-extra').
 
 
 pkg('texlive-pstricks').

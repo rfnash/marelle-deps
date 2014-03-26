@@ -4,4 +4,4 @@
 %
 pkg('vte').
 installs_with_pacman('vte', 'vte').
-installs_with_apt('vte', 'vte').
+met('vte', linux(sid)) :- bash(['echo "TODO: figure out how to install vte on debian"']).

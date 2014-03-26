@@ -23,9 +23,6 @@ meta_pkg('package-management', [
     'yaourt'
     ]) :- platform(linux(arch)).
 meta_pkg('package-management', [
-    'pacgraph',
-    'packer',
-    'powerpill',
     'debfoster',
     'deborphan'
     ]) :- platform(linux(sid)).
@@ -54,33 +51,31 @@ pkg('aurvote') :- platform(linux(arch)).
 installs_with_pacman('aurvote', 'aurvote').
 
 
-pkg('findbrokenpkgs').
+pkg('findbrokenpkgs') :- platform(linux(arch)).
 installs_with_yaourt('findbrokenpkgs', 'findbrokenpkgs').
 
 
-pkg('namcap').
+pkg('namcap') :- platform(linux(arch)).
 installs_with_pacman('namcap', 'namcap').
 
 
-pkg('pacaur').
+pkg('pacaur') :- platform(linux(arch)).
 installs_with_yaourt('pacaur', 'pacaur').
 
 
-pkg('pacgraph').
+pkg('pacgraph') :- platform(linux(arch)).
 installs_with_pacman('pacgraph', 'pacgraph').
-installs_with_apt('pacgraph', 'pacgraph').
 
 
-pkg('packer').
+pkg('packer') :- platform(linux(arch)).
 installs_with_pacman('packer', 'packer').
-installs_with_apt('packer', 'packer').
 
 
-pkg('pacman-color').
+pkg('pacman-color') :- platform(linux(arch)).
 installs_with_yaourt('pacman-color', 'pacman-color').
 
 
-pkg('pacmatic').
+pkg('pacmatic') :- platform(linux(arch)).
 installs_with_pacman('pacmatic', 'pacmatic').
 
 
@@ -89,7 +84,7 @@ installs_with_pacman('powerpill', 'powerpill').
 installs_with_apt('powerpill', 'powerpill').
 
 
-pkg('update-mirrorlist').
+pkg('update-mirrorlist') :- platform(linux(arch)).
 installs_with_yaourt('update-mirrorlist', 'update-mirrorlist').
 
 
