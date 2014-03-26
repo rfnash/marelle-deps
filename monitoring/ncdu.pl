@@ -5,4 +5,3 @@
 pkg('ncdu').
 installs_with_pacman('ncdu', 'ncdu').
 installs_with_apt('ncdu', 'ncdu').
-installs_with_apt('ncdu', 'ncdu').
