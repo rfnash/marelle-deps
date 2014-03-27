@@ -2,5 +2,5 @@
 % smxi-inxi-antix.pl
 % marelle-deps
 %
-pkg('smxi-inxi-antix', linux(sid)).
+debian_pkg('smxi-inxi-antix').
 installs_with_apt('smxi-inxi-antix', 'smxi-inxi-antix').

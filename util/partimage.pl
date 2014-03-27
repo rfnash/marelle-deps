@@ -2,5 +2,5 @@
 % partimage.pl
 % marelle-deps
 %
-pkg('partimage', linux(sid)).
+debian_pkg('partimage').
 installs_with_apt('partimage', 'partimage').

@@ -2,5 +2,5 @@
 % ash.pl
 % marelle-deps
 %
-pkg('ash', linux(sid)).
+debian_pkg('ash').
 installs_with_apt('ash', 'ash').

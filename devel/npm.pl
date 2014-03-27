@@ -2,5 +2,5 @@
 % npm.pl
 % marelle-deps
 %
-pkg('npm', linux(sid)).
+debian_pkg('npm').
 installs_with_apt('npm', 'npm').

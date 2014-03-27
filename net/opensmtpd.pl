@@ -2,5 +2,5 @@
 % opensmtpd.pl
 % marelle-deps
 %
-pkg('opensmtpd', linux(sid)).
+debian_pkg('opensmtpd').
 installs_with_apt('opensmtpd', 'opensmtpd').

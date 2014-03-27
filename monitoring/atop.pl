@@ -2,5 +2,5 @@
 % atop.pl
 % marelle-deps
 %
-pkg('atop', linux(sid)).
+debian_pkg('atop').
 installs_with_apt('atop', 'atop').

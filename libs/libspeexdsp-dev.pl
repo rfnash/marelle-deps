@@ -2,5 +2,5 @@
 % libspeexdsp-dev.pl
 % marelle-deps
 %
-pkg('libspeexdsp-dev', linux(sid)).
+debian_pkg('libspeexdsp-dev').
 installs_with_apt('libspeexdsp-dev', 'libspeexdsp-dev').

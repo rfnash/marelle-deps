@@ -2,5 +2,5 @@
 % alsa-base.pl
 % marelle-deps
 %
-pkg('alsa-base', linux(sid)).
+debian_pkg('alsa-base').
 installs_with_apt('alsa-base', 'alsa-base').

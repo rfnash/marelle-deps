@@ -2,5 +2,5 @@
 % xdotool.pl
 % marelle-deps
 %
-pkg('xdotool', linux(sid)).
+debian_pkg('xdotool').
 installs_with_apt('xdotool', 'xdotool').

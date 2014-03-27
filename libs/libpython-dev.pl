@@ -2,5 +2,5 @@
 % libpython-dev.pl
 % marelle-deps
 %
-pkg('libpython-dev', linux(sid)).
+debian_pkg('libpython-dev').
 installs_with_apt('libpython-dev', 'libpython-dev').

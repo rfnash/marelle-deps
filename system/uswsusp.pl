@@ -2,5 +2,5 @@
 % uswsusp.pl
 % marelle-deps
 %
-pkg('uswsusp', linux(sid)).
+debian_pkg('uswsusp').
 installs_with_apt('uswsusp', 'uswsusp').

@@ -2,5 +2,5 @@
 % system-config-printer.pl
 % marelle-deps
 %
-pkg('system-config-printer', linux(sid)).
+debian_pkg('system-config-printer').
 installs_with_apt('system-config-printer', 'system-config-printer').

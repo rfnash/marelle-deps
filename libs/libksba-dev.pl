@@ -2,5 +2,5 @@
 % libksba-dev.pl
 % marelle-deps
 %
-pkg('libksba-dev', linux(sid)).
+debian_pkg('libksba-dev').
 installs_with_apt('libksba-dev', 'libksba-dev').

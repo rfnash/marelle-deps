@@ -2,5 +2,5 @@
 % ntpdate.pl
 % marelle-deps
 %
-pkg('ntpdate', linux(sid)).
+debian_pkg('ntpdate').
 installs_with_apt('ntpdate', 'ntpdate').

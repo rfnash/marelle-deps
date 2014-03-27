@@ -2,5 +2,5 @@
 % xloadimage.pl
 % marelle-deps
 %
-pkg('xloadimage', linux(sid)).
+debian_pkg('xloadimage').
 installs_with_apt('xloadimage', 'xloadimage').

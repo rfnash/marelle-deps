@@ -2,5 +2,5 @@
 % silversearcher-ag.pl
 % marelle-deps
 %
-pkg('silversearcher-ag', linux(sid)).
+debian_pkg('silversearcher-ag').
 installs_with_apt('silversearcher-ag', 'silversearcher-ag').

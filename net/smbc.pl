@@ -2,5 +2,5 @@
 % smbc.pl
 % marelle-deps
 %
-pkg('smbc', linux(sid)).
+debian_pkg('smbc').
 installs_with_apt('smbc', 'smbc').

@@ -2,5 +2,5 @@
 % devtodo.pl
 % marelle-deps
 %
-pkg('devtodo', linux(sid)).
+debian_pkg('devtodo').
 installs_with_apt('devtodo', 'devtodo').

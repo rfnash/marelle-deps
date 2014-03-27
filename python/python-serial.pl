@@ -2,5 +2,5 @@
 % python-serial.pl
 % marelle-deps
 %
-pkg('python-serial', linux(sid)).
+debian_pkg('python-serial').
 installs_with_apt('python-serial', 'python-serial').

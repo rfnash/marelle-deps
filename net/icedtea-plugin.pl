@@ -2,5 +2,5 @@
 % icedtea-plugin.pl
 % marelle-deps
 %
-pkg('icedtea-plugin', linux(sid)).
+debian_pkg('icedtea-plugin').
 installs_with_apt('icedtea-plugin', 'icedtea-plugin').

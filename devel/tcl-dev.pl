@@ -2,5 +2,5 @@
 % tcl-dev.pl
 % marelle-deps
 %
-pkg('tcl-dev', linux(sid)).
+debian_pkg('tcl-dev').
 installs_with_apt('tcl-dev', 'tcl-dev').

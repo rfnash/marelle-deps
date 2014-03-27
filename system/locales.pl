@@ -2,5 +2,5 @@
 % locales.pl
 % marelle-deps
 %
-pkg('locales', linux(sid)).
+debian_pkg('locales').
 installs_with_apt('locales', 'locales').

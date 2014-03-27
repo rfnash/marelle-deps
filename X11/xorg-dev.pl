@@ -2,5 +2,5 @@
 % xorg-dev.pl
 % marelle-deps
 %
-pkg('xorg-dev', linux(sid)).
+debian_pkg('xorg-dev').
 installs_with_apt('xorg-dev', 'xorg-dev').

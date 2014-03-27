@@ -2,5 +2,5 @@
 % libsigsegv-dev.pl
 % marelle-deps
 %
-pkg('libsigsegv-dev', linux(sid)).
+debian_pkg('libsigsegv-dev').
 installs_with_apt('libsigsegv-dev', 'libsigsegv-dev').

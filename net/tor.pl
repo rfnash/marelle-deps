@@ -2,5 +2,5 @@
 % tor.pl
 % marelle-deps
 %
-pkg('tor', linux(sid)).
+debian_pkg('tor').
 installs_with_apt('tor', 'tor').

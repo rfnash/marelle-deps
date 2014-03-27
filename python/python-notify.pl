@@ -2,5 +2,5 @@
 % python-notify.pl
 % marelle-deps
 %
-pkg('python-notify', linux(sid)).
+debian_pkg('python-notify').
 installs_with_apt('python-notify', 'python-notify').

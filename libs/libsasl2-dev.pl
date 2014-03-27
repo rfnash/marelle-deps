@@ -2,5 +2,5 @@
 % libsasl2-dev.pl
 % marelle-deps
 %
-pkg('libsasl2-dev', linux(sid)).
+debian_pkg('libsasl2-dev').
 installs_with_apt('libsasl2-dev', 'libsasl2-dev').

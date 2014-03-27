@@ -2,5 +2,5 @@
 % lame.pl
 % marelle-deps
 %
-pkg('lame', linux(sid)).
+debian_pkg('lame').
 installs_with_apt('lame', 'lame').

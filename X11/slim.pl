@@ -2,5 +2,5 @@
 % slim.pl
 % marelle-deps
 %
-pkg('slim', linux(sid)).
+debian_pkg('slim').
 installs_with_apt('slim', 'slim').

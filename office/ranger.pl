@@ -2,5 +2,5 @@
 % ranger.pl
 % marelle-deps
 %
-pkg('ranger', linux(sid)).
+debian_pkg('ranger').
 installs_with_apt('ranger', 'ranger').

@@ -13,11 +13,11 @@ meta_pkg('dovecot', [
     ], linux(arch)).
 
 
-pkg('dovecot-core', linux(sid)).
+debian_pkg('dovecot-core').
 installs_with_apt('dovecot-core', 'dovecot-core').
 
 
-pkg('dovecot-imapd', linux(sid)).
+debian_pkg('dovecot-imapd').
 installs_with_apt('dovecot-imapd', 'dovecot-imapd').
 
 

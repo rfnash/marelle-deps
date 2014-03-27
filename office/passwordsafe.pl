@@ -2,5 +2,5 @@
 % passwordsafe.pl
 % marelle-deps
 %
-pkg('passwordsafe', linux(sid)).
+debian_pkg('passwordsafe').
 installs_with_apt('passwordsafe', 'passwordsafe').

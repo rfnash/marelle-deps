@@ -2,5 +2,5 @@
 % psutils.pl
 % marelle-deps
 %
-pkg('psutils', linux(sid)).
+debian_pkg('psutils').
 installs_with_apt('psutils', 'psutils').

@@ -2,5 +2,5 @@
 % xpra.pl
 % marelle-deps
 %
-pkg('xpra', linux(sid)).
+debian_pkg('xpra').
 installs_with_apt('xpra', 'xpra').

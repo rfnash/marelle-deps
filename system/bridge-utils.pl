@@ -2,5 +2,5 @@
 % bridge-utils.pl
 % marelle-deps
 %
-pkg('bridge-utils', linux(sid)).
+debian_pkg('bridge-utils').
 installs_with_apt('bridge-utils', 'bridge-utils').

@@ -2,5 +2,5 @@
 % mesa-utils.pl
 % marelle-deps
 %
-pkg('mesa-utils', linux(sid)).
+debian_pkg('mesa-utils').
 installs_with_apt('mesa-utils', 'mesa-utils').

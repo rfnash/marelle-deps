@@ -2,5 +2,5 @@
 % libevdev-dev.pl
 % marelle-deps
 %
-pkg('libevdev-dev', linux(sid)).
+debian_pkg('libevdev-dev').
 installs_with_apt('libevdev-dev', 'libevdev-dev').

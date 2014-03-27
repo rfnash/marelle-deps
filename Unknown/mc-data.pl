@@ -2,5 +2,5 @@
 % mc-data.pl
 % marelle-deps
 %
-pkg('mc-data', linux(sid)).
+debian_pkg('mc-data').
 installs_with_apt('mc-data', 'mc-data').

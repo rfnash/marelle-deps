@@ -2,6 +2,6 @@
 % htop.pl
 % marelle-deps
 %
-pkg('htop', linux(sid)).
+debian_pkg('htop').
 installs_with_yaourt('htop', 'htop-solarized-vi').
 installs_with_apt('htop', 'htop').

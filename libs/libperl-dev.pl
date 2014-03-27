@@ -2,5 +2,5 @@
 % libperl-dev.pl
 % marelle-deps
 %
-pkg('libperl-dev', linux(sid)).
+debian_pkg('libperl-dev').
 installs_with_apt('libperl-dev', 'libperl-dev').

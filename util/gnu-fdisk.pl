@@ -2,5 +2,5 @@
 % gnu-fdisk.pl
 % marelle-deps
 %
-pkg('gnu-fdisk', linux(sid)).
+debian_pkg('gnu-fdisk').
 installs_with_apt('gnu-fdisk', 'gnu-fdisk').

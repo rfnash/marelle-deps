@@ -2,5 +2,5 @@
 % pandoc.pl
 % marelle-deps
 %
-pkg('pandoc', linux(sid)).
+debian_pkg('pandoc').
 installs_with_apt('pandoc', 'pandoc').

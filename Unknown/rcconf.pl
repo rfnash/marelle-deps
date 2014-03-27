@@ -2,5 +2,5 @@
 % rcconf.pl
 % marelle-deps
 %
-pkg('rcconf', linux(sid)).
+debian_pkg('rcconf').
 installs_with_apt('rcconf', 'rcconf').

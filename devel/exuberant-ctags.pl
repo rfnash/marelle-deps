@@ -2,5 +2,5 @@
 % exuberant-ctags.pl
 % marelle-deps
 %
-pkg('exuberant-ctags', linux(sid)).
+debian_pkg('exuberant-ctags').
 installs_with_apt('exuberant-ctags', 'exuberant-ctags').

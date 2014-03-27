@@ -2,5 +2,5 @@
 % gpm.pl
 % marelle-deps
 %
-pkg('gpm', linux(sid)).
+debian_pkg('gpm').
 installs_with_apt('gpm', 'gpm').

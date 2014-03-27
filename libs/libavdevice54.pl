@@ -2,5 +2,5 @@
 % libavdevice54.pl
 % marelle-deps
 %
-pkg('libavdevice54', linux(sid)).
+debian_pkg('libavdevice54').
 installs_with_apt('libavdevice54', 'libavdevice54').

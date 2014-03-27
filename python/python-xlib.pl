@@ -2,5 +2,5 @@
 % python-xlib.pl
 % marelle-deps
 %
-pkg('python-xlib', linux(sid)).
+debian_pkg('python-xlib').
 installs_with_apt('python-xlib', 'python-xlib').

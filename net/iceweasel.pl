@@ -2,5 +2,5 @@
 % iceweasel.pl
 % marelle-deps
 %
-pkg('iceweasel', linux(sid)).
+debian_pkg('iceweasel').
 installs_with_apt('iceweasel', 'iceweasel').

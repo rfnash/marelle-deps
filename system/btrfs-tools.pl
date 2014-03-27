@@ -2,5 +2,5 @@
 % btrfs-tools.pl
 % marelle-deps
 %
-pkg('btrfs-tools', linux(sid)).
+debian_pkg('btrfs-tools').
 installs_with_apt('btrfs-tools', 'btrfs-tools').

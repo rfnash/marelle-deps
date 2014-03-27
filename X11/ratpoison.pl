@@ -2,5 +2,5 @@
 % ratpoison.pl
 % marelle-deps
 %
-pkg('ratpoison', linux(sid)).
+debian_pkg('ratpoison').
 installs_with_apt('ratpoison', 'ratpoison').

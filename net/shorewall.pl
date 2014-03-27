@@ -2,5 +2,5 @@
 % shorewall.pl
 % marelle-deps
 %
-pkg('shorewall', linux(sid)).
+debian_pkg('shorewall').
 installs_with_apt('shorewall', 'shorewall').

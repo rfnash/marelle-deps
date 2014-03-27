@@ -2,5 +2,5 @@
 % most.pl
 % marelle-deps
 %
-pkg('most', linux(sid)).
+debian_pkg('most').
 installs_with_apt('most', 'most').

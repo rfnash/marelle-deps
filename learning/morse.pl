@@ -2,5 +2,5 @@
 % morse.pl
 % marelle-deps
 %
-pkg('morse', linux(sid)).
+debian_pkg('morse').
 installs_with_apt('morse', 'morse').

@@ -2,5 +2,5 @@
 % xinetd.pl
 % marelle-deps
 %
-pkg('xinetd', linux(sid)).
+debian_pkg('xinetd').
 installs_with_apt('xinetd', 'xinetd').

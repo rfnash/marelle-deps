@@ -2,5 +2,5 @@
 % wpagui.pl
 % marelle-deps
 %
-pkg('wpagui', linux(sid)).
+debian_pkg('wpagui').
 installs_with_apt('wpagui', 'wpagui').

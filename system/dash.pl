@@ -2,5 +2,5 @@
 % dash.pl
 % marelle-deps
 %
-pkg('dash', linux(sid)).
+debian_pkg('dash').
 installs_with_apt('dash', 'dash').

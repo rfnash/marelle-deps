@@ -2,5 +2,5 @@
 % irssi-scripts.pl
 % marelle-deps
 %
-pkg('irssi-scripts', linux(sid)).
+debian_pkg('irssi-scripts').
 installs_with_apt('irssi-scripts', 'irssi-scripts').

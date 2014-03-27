@@ -2,5 +2,5 @@
 % python.pl
 % marelle-deps
 %
-pkg('python', linux(sid)).
+debian_pkg('python').
 installs_with_apt('python', 'python').

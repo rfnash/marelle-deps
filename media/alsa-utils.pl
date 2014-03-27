@@ -2,5 +2,5 @@
 % alsa-utils.pl
 % marelle-deps
 %
-pkg('alsa-utils', linux(sid)).
+debian_pkg('alsa-utils').
 installs_with_apt('alsa-utils', 'alsa-utils').

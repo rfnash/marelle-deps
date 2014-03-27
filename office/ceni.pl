@@ -2,5 +2,5 @@
 % ceni.pl
 % marelle-deps
 %
-pkg('ceni', linux(sid)).
+debian_pkg('ceni').
 installs_with_apt('ceni', 'ceni').

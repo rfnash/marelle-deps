@@ -2,5 +2,5 @@
 % libxapian-dev.pl
 % marelle-deps
 %
-pkg('libxapian-dev', linux(sid)).
+debian_pkg('libxapian-dev').
 installs_with_apt('libxapian-dev', 'libxapian-dev').

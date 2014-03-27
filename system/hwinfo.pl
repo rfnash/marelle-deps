@@ -2,5 +2,5 @@
 % hwinfo.pl
 % marelle-deps
 %
-pkg('hwinfo', linux(sid)).
+debian_pkg('hwinfo').
 installs_with_apt('hwinfo', 'hwinfo').

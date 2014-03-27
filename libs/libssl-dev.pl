@@ -2,5 +2,5 @@
 % libssl-dev.pl
 % marelle-deps
 %
-pkg('libssl-dev', linux(sid)).
+debian_pkg('libssl-dev').
 installs_with_apt('libssl-dev', 'libssl-dev').

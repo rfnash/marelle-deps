@@ -2,5 +2,5 @@
 % lm-sensors.pl
 % marelle-deps
 %
-pkg('lm-sensors', linux(sid)).
+debian_pkg('lm-sensors').
 installs_with_apt('lm-sensors', 'lm-sensors').

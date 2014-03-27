@@ -2,5 +2,5 @@
 % make.pl
 % marelle-deps
 %
-pkg('make', linux(sid)).
+debian_pkg('make').
 installs_with_apt('make', 'make').

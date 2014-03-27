@@ -2,5 +2,5 @@
 % flac.pl
 % marelle-deps
 %
-pkg('flac', linux(sid)).
+debian_pkg('flac').
 installs_with_apt('flac', 'flac').

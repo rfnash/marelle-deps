@@ -2,5 +2,5 @@
 % pulseaudio-utils.pl
 % marelle-deps
 %
-pkg('pulseaudio-utils', linux(sid)).
+debian_pkg('pulseaudio-utils').
 installs_with_apt('pulseaudio-utils', 'pulseaudio-utils').

@@ -4,7 +4,7 @@
 %
 %
 
-pkg('netsurf-fb', linux(sid)).
+debian_pkg('netsurf-fb').
 installs_with_apt('netsurf-fb', 'netsurf-fb').
 
 

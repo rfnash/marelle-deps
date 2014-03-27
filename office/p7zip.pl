@@ -2,5 +2,5 @@
 % p7zip.pl
 % marelle-deps
 %
-pkg('p7zip', linux(sid)).
+debian_pkg('p7zip').
 installs_with_apt('p7zip', 'p7zip').

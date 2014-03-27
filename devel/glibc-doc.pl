@@ -2,5 +2,5 @@
 % glibc-doc.pl
 % marelle-deps
 %
-pkg('glibc-doc', linux(sid)).
+debian_pkg('glibc-doc').
 installs_with_apt('glibc-doc', 'glibc-doc').

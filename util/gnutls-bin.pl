@@ -2,5 +2,5 @@
 % gnutls-bin.pl
 % marelle-deps
 %
-pkg('gnutls-bin', linux(sid)).
+debian_pkg('gnutls-bin').
 installs_with_apt('gnutls-bin', 'gnutls-bin').

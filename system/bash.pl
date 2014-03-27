@@ -2,5 +2,5 @@
 % bash.pl
 % marelle-deps
 %
-pkg('bash', linux(sid)).
+debian_pkg('bash').
 installs_with_apt('bash', 'bash').

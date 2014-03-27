@@ -2,5 +2,5 @@
 % samba-tools.pl
 % marelle-deps
 %
-pkg('samba-tools', linux(sid)).
+debian_pkg('samba-tools').
 installs_with_apt('samba-tools', 'samba-tools').

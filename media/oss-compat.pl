@@ -2,5 +2,5 @@
 % oss-compat.pl
 % marelle-deps
 %
-pkg('oss-compat', linux(sid)).
+debian_pkg('oss-compat').
 installs_with_apt('oss-compat', 'oss-compat').

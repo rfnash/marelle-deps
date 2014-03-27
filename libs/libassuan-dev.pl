@@ -2,5 +2,5 @@
 % libassuan-dev.pl
 % marelle-deps
 %
-pkg('libassuan-dev', linux(sid)).
+debian_pkg('libassuan-dev').
 installs_with_apt('libassuan-dev', 'libassuan-dev').

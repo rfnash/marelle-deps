@@ -2,5 +2,5 @@
 % qt4-dev-tools.pl
 % marelle-deps
 %
-pkg('qt4-dev-tools', linux(sid)).
+debian_pkg('qt4-dev-tools').
 installs_with_apt('qt4-dev-tools', 'qt4-dev-tools').

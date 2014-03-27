@@ -2,5 +2,5 @@
 % libboost-all-dev.pl
 % marelle-deps
 %
-pkg('libboost-all-dev', linux(sid)).
+debian_pkg('libboost-all-dev').
 installs_with_apt('libboost-all-dev', 'libboost-all-dev').

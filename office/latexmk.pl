@@ -2,5 +2,5 @@
 % latexmk.pl
 % marelle-deps
 %
-pkg('latexmk', linux(sid)).
+debian_pkg('latexmk').
 installs_with_apt('latexmk', 'latexmk').

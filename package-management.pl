@@ -90,9 +90,9 @@ pkg('yaourt', linux(arch)).
 installs_with_pacman('yaourt', 'yaourt').
 
 
-pkg('debfoster', linux(sid)).
+debian_pkg('debfoster').
 installs_with_apt('debfoster', 'debfoster').
 
 
-pkg('deborphan', linux(sid)).
+debian_pkg('deborphan').
 installs_with_apt('deborphan', 'deborphan').

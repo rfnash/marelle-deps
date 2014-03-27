@@ -2,5 +2,5 @@
 % julia.pl
 % marelle-deps
 %
-pkg('julia', linux(sid)).
+debian_pkg('julia').
 installs_with_apt('julia', 'julia').

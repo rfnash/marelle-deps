@@ -1,7 +1,7 @@
 % zathura.pl
 % marelle-deps
 %
-pkg('zathura', linux(sid)).
+debian_pkg('zathura').
 installs_with_apt('zathura', 'zathura').
 
 linux_pkg('zathura-djvu', pacman('zathura-djvu'), 'zathura-djvu').

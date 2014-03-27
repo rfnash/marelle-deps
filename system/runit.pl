@@ -2,5 +2,5 @@
 % runit.pl
 % marelle-deps
 %
-pkg('runit', linux(sid)).
+debian_pkg('runit').
 installs_with_apt('runit', 'runit').

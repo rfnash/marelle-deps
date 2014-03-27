@@ -2,5 +2,5 @@
 % sudo.pl
 % marelle-deps
 %
-pkg('sudo', linux(sid)).
+debian_pkg('sudo').
 installs_with_apt('sudo', 'sudo').

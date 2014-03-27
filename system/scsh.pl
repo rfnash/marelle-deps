@@ -8,5 +8,5 @@ pkg('scsh').
 met('scsh', linux(sid)).
 installs_with_yaourt('scsh', 'guile-scsh-git').
 
-pkg('scsh-doc', linux(sid)).
+debian_pkg('scsh-doc').
 installs_with_apt('scsh-doc', 'scsh-doc').

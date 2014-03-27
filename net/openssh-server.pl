@@ -2,5 +2,5 @@
 % openssh-server.pl
 % marelle-deps
 %
-pkg('openssh-server', linux(sid)).
+debian_pkg('openssh-server').
 installs_with_apt('openssh-server', 'openssh-server').

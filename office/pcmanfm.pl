@@ -2,5 +2,5 @@
 % pcmanfm.pl
 % marelle-deps
 %
-pkg('pcmanfm', linux(sid)).
+debian_pkg('pcmanfm').
 installs_with_apt('pcmanfm', 'pcmanfm').

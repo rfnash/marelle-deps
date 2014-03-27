@@ -2,5 +2,5 @@
 % lxappearance.pl
 % marelle-deps
 %
-pkg('lxappearance', linux(sid)).
+debian_pkg('lxappearance').
 installs_with_apt('lxappearance', 'lxappearance').

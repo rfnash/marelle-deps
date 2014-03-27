@@ -2,5 +2,5 @@
 % xsane.pl
 % marelle-deps
 %
-pkg('xsane', linux(sid)).
+debian_pkg('xsane').
 installs_with_apt('xsane', 'xsane').

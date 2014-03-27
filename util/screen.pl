@@ -2,5 +2,5 @@
 % screen.pl
 % marelle-deps
 %
-pkg('screen', linux(sid)).
+debian_pkg('screen').
 installs_with_apt('screen', 'screen').

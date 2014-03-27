@@ -2,5 +2,5 @@
 % bitlbee-plugin-otr.pl
 % marelle-deps
 %
-pkg('bitlbee-plugin-otr', linux(sid)).
+debian_pkg('bitlbee-plugin-otr').
 installs_with_apt('bitlbee-plugin-otr', 'bitlbee-plugin-otr').

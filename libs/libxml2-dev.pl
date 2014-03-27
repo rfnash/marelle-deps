@@ -2,5 +2,5 @@
 % libxml2-dev.pl
 % marelle-deps
 %
-pkg('libxml2-dev', linux(sid)).
+debian_pkg('libxml2-dev').
 installs_with_apt('libxml2-dev', 'libxml2-dev').

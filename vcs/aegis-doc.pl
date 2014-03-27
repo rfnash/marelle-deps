@@ -2,5 +2,5 @@
 % aegis-doc.pl
 % marelle-deps
 %
-pkg('aegis-doc', linux(sid)).
+debian_pkg('aegis-doc').
 installs_with_apt('aegis-doc', 'aegis-doc').

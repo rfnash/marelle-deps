@@ -2,5 +2,5 @@
 % lshw.pl
 % marelle-deps
 %
-pkg('lshw', linux(sid)).
+debian_pkg('lshw').
 installs_with_apt('lshw', 'lshw').

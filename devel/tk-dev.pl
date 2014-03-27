@@ -2,5 +2,5 @@
 % tk-dev.pl
 % marelle-deps
 %
-pkg('tk-dev', linux(sid)).
+debian_pkg('tk-dev').
 installs_with_apt('tk-dev', 'tk-dev').

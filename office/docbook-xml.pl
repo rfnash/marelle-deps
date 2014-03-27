@@ -2,5 +2,5 @@
 % docbook-xml.pl
 % marelle-deps
 %
-pkg('docbook-xml', linux(sid)).
+debian_pkg('docbook-xml').
 installs_with_apt('docbook-xml', 'docbook-xml').

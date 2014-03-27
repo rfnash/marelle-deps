@@ -2,5 +2,5 @@
 % mnemosyne.pl
 % marelle-deps
 %
-pkg('mnemosyne', linux(sid)).
+debian_pkg('mnemosyne').
 installs_with_apt('mnemosyne', 'mnemosyne').

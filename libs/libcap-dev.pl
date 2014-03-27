@@ -2,5 +2,5 @@
 % libcap-dev.pl
 % marelle-deps
 %
-pkg('libcap-dev', linux(sid)).
+debian_pkg('libcap-dev').
 installs_with_apt('libcap-dev', 'libcap-dev').

@@ -2,5 +2,5 @@
 % parted.pl
 % marelle-deps
 %
-pkg('parted', linux(sid)).
+debian_pkg('parted').
 installs_with_apt('parted', 'parted').

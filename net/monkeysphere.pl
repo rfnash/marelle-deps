@@ -2,10 +2,10 @@
 % monkeysphere.pl
 % marelle-deps
 %
-pkg('monkeysphere', linux(sid)).
+debian_pkg('monkeysphere').
 installs_with_apt('monkeysphere', 'monkeysphere').
 
 linux_pkg('msva-perl', yaourt('msva-perl-git'), 'msva-perl').
 
-pkg('monkeysign', linux(sid)).
+debian_pkg('monkeysign').
 installs_with_apt('monkeysign', 'monkeysign').

@@ -2,5 +2,5 @@
 % aegis-tk.pl
 % marelle-deps
 %
-pkg('aegis-tk', linux(sid)).
+debian_pkg('aegis-tk').
 installs_with_apt('aegis-tk', 'aegis-tk').

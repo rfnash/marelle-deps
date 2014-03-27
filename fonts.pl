@@ -49,7 +49,7 @@ pkg('dina-font').
 installs_with_pacman('dina-font', 'dina-font').
 
 
-pkg('fonts-opensymbol', linux(sid)).
+debian_pkg('fonts-opensymbol').
 installs_with_apt('fonts-opensymbol', 'fonts-opensymbol').
 
 
@@ -80,7 +80,7 @@ pkg('termsyn').
 installs_with_yaourt('termsyn', 'termsyn').
 
 
-pkg('ttf-bitstream-vera', linux(sid)).
+debian_pkg('ttf-bitstream-vera').
 installs_with_apt('ttf-bitstream-vera', 'ttf-bitstream-vera').
 
 
@@ -92,7 +92,7 @@ pkg('ttf-code2001', linux(arch)).
 installs_with_yaourt('ttf-code2001', 'ttf-code2001').
 
 
-pkg('fonts-freefont-ttf', linux(sid)).
+debian_pkg('fonts-freefont-ttf').
 installs_with_apt('fonts-freefont-ttf', 'fonts-freefont-ttf').
 
 
@@ -120,23 +120,23 @@ installs_with_pacman('ttf-symbola', 'ttf-symbola').
 linux_pkg('ttf-unifont', yaourt('ttf-unifont'), 'ttf-unifont').
 
 
-pkg('unifont', linux(sid)).
+debian_pkg('unifont').
 installs_with_apt('unifont', 'unifont').
 
 
-pkg('xfonts-intl-asian', linux(sid)).
+debian_pkg('xfonts-intl-asian').
 installs_with_apt('xfonts-intl-asian', 'xfonts-intl-asian').
 
 
-pkg('xfonts-intl-european', linux(sid)).
+debian_pkg('xfonts-intl-european').
 installs_with_apt('xfonts-intl-european', 'xfonts-intl-european').
 
 
-pkg('xfonts-intl-japanese', linux(sid)).
+debian_pkg('xfonts-intl-japanese').
 installs_with_apt('xfonts-intl-japanese', 'xfonts-intl-japanese').
 
 
-pkg('xfonts-terminus', linux(sid)).
+debian_pkg('xfonts-terminus').
 installs_with_apt('xfonts-terminus', 'xfonts-terminus').
 
 

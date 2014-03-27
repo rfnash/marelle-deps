@@ -2,5 +2,5 @@
 % libnotify-dev.pl
 % marelle-deps
 %
-pkg('libnotify-dev', linux(sid)).
+debian_pkg('libnotify-dev').
 installs_with_apt('libnotify-dev', 'libnotify-dev').

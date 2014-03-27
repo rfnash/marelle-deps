@@ -2,5 +2,5 @@
 % quassel-client.pl
 % marelle-deps
 %
-pkg('quassel-client', linux(sid)).
+debian_pkg('quassel-client').
 installs_with_apt('quassel-client', 'quassel-client').

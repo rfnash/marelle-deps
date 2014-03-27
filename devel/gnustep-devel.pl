@@ -2,5 +2,5 @@
 % gnustep-devel.pl
 % marelle-deps
 %
-pkg('gnustep-devel', linux(sid)).
+debian_pkg('gnustep-devel').
 installs_with_apt('gnustep-devel', 'gnustep-devel').

@@ -2,5 +2,5 @@
 % firmware-iwlwifi.pl
 % marelle-deps
 %
-pkg('firmware-iwlwifi', linux(sid)).
+debian_pkg('firmware-iwlwifi').
 installs_with_apt('firmware-iwlwifi', 'firmware-iwlwifi').

@@ -2,5 +2,5 @@
 % zip.pl
 % marelle-deps
 %
-pkg('zip', linux(sid)).
+debian_pkg('zip').
 installs_with_apt('zip', 'zip').

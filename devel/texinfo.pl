@@ -2,5 +2,5 @@
 % texinfo.pl
 % marelle-deps
 %
-pkg('texinfo', linux(sid)).
+debian_pkg('texinfo').
 installs_with_apt('texinfo', 'texinfo').

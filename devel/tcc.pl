@@ -2,5 +2,5 @@
 % tcc.pl
 % marelle-deps
 %
-pkg('tcc', linux(sid)).
+debian_pkg('tcc').
 installs_with_apt('tcc', 'tcc').

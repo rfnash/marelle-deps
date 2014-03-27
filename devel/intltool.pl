@@ -2,5 +2,5 @@
 % intltool.pl
 % marelle-deps
 %
-pkg('intltool', linux(sid)).
+debian_pkg('intltool').
 installs_with_apt('intltool', 'intltool').

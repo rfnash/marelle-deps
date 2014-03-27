@@ -2,5 +2,5 @@
 % dar.pl
 % marelle-deps
 %
-pkg('dar', linux(sid)).
+debian_pkg('dar').
 installs_with_apt('dar', 'dar').

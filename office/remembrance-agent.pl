@@ -2,5 +2,5 @@
 % remembrance-agent.pl
 % marelle-deps
 %
-pkg('remembrance-agent', linux(sid)).
+debian_pkg('remembrance-agent').
 installs_with_apt('remembrance-agent', 'remembrance-agent').

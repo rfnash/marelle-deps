@@ -2,5 +2,5 @@
 % dvdstyler.pl
 % marelle-deps
 %
-pkg('dvdstyler', linux(sid)).
+debian_pkg('dvdstyler').
 installs_with_apt('dvdstyler', 'dvdstyler').

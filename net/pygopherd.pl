@@ -2,5 +2,5 @@
 % pygopherd.pl
 % marelle-deps
 %
-pkg('pygopherd', linux(sid)).
+debian_pkg('pygopherd').
 installs_with_apt('pygopherd', 'pygopherd').

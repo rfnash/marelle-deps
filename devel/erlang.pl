@@ -2,5 +2,5 @@
 % erlang.pl
 % marelle-deps
 %
-pkg('erlang', linux(sid)).
+debian_pkg('erlang').
 installs_with_apt('erlang', 'erlang').

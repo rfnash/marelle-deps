@@ -2,5 +2,5 @@
 % smbclient.pl
 % marelle-deps
 %
-pkg('smbclient', linux(sid)).
+debian_pkg('smbclient').
 installs_with_apt('smbclient', 'smbclient').

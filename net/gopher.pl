@@ -2,5 +2,5 @@
 % gopher.pl
 % marelle-deps
 %
-pkg('gopher', linux(sid)).
+debian_pkg('gopher').
 installs_with_apt('gopher', 'gopher').

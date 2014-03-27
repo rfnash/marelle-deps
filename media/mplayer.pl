@@ -2,5 +2,5 @@
 % mplayer.pl
 % marelle-deps
 %
-pkg('mplayer', linux(sid)).
+debian_pkg('mplayer').
 installs_with_apt('mplayer', 'mplayer').

@@ -2,5 +2,5 @@
 % xul-ext-monkeysphere.pl
 % marelle-deps
 %
-pkg('xul-ext-monkeysphere', linux(sid)).
+debian_pkg('xul-ext-monkeysphere').
 installs_with_apt('xul-ext-monkeysphere', 'xul-ext-monkeysphere').

@@ -2,5 +2,5 @@
 % unzip.pl
 % marelle-deps
 %
-pkg('unzip', linux(sid)).
+debian_pkg('unzip').
 installs_with_apt('unzip', 'unzip').

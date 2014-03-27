@@ -2,5 +2,5 @@
 % xarchiver.pl
 % marelle-deps
 %
-pkg('xarchiver', linux(sid)).
+debian_pkg('xarchiver').
 installs_with_apt('xarchiver', 'xarchiver').

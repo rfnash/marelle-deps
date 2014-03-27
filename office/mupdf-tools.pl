@@ -2,5 +2,5 @@
 % mupdf-tools.pl
 % marelle-deps
 %
-pkg('mupdf-tools', linux(sid)).
+debian_pkg('mupdf-tools').
 installs_with_apt('mupdf-tools', 'mupdf-tools').

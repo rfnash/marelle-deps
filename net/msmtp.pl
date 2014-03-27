@@ -2,5 +2,5 @@
 % msmtp.pl
 % marelle-deps
 %
-pkg('msmtp', linux(sid)).
+debian_pkg('msmtp').
 installs_with_apt('msmtp', 'msmtp').

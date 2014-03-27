@@ -2,5 +2,5 @@
 % xcwcp.pl
 % marelle-deps
 %
-pkg('xcwcp', linux(sid)).
+debian_pkg('xcwcp').
 installs_with_apt('xcwcp', 'xcwcp').
