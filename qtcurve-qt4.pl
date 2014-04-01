@@ -1,1 +1,0 @@
-X11/qtcurve-qt4.pl

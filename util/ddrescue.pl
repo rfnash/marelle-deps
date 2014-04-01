@@ -2,4 +2,4 @@
 % ddrescue.pl
 % marelle-deps
 %
-pacman_pkg('ddrescue').
+linux_pkg('ddrescue', pacman('ddrescue'), 'gddrescue').

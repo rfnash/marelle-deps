@@ -1,1 +1,0 @@
-util/gddrescue.pl

@@ -1,1 +1,0 @@
-X11/qtcurve-gtk2.pl

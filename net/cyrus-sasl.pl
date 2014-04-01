@@ -2,4 +2,4 @@
 % cyrus-sasl.pl
 % marelle-deps
 %
-pacman_pkg('cyrus-sasl').
+linux_pkg('cyrus-sasl', pacman('cyrus-sasl'), ['sasl2-bin', 'cyrus-sasl2-doc']).

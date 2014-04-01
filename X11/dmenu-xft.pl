@@ -2,4 +2,4 @@
 % dmenu-xft.pl
 % marelle-deps
 %
-aur_pkg('dmenu-xft').
+linux_pkg('dmenu', aur('dmenu-xft'), 'suckless-tools').

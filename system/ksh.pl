@@ -2,4 +2,4 @@
 % ksh.pl
 % marelle-deps
 %
-aur_pkg('ksh').
+linux_pkg('ksh', aur('ksh'), 'ksh').

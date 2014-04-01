@@ -2,4 +2,4 @@
 % linux-headers.pl
 % marelle-deps
 %
-linux_pkg('linux-headers', pacman('linux-headers'), 'linux-headers').
+linux_pkg('linux-headers', pacman('linux-headers'), 'linux-headers-amd64').

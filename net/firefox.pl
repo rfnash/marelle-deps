@@ -2,4 +2,4 @@
 % firefox.pl
 % marelle-deps
 %
-pacman_pkg('firefox').
+linux_pkg('firefox', pacman('firefox'), 'iceweasel').

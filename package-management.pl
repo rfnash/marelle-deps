@@ -66,7 +66,7 @@ aur_pkg('pacman-color').
 pacman_pkg('pacmatic').
 
 
-linux_pkg('powerpill', pacman('powerpill'), 'powerpill').
+pacman_pkg('powerpill').
 
 
 aur_pkg('update-mirrorlist').

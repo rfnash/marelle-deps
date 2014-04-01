@@ -2,4 +2,4 @@
 % sqlitebrowser.pl
 % marelle-deps
 %
-linux_pkg('sqlitebrowser', pacman('sqlitebrowser'), 'sqlitebrowser').
+pacman_pkg('sqlitebrowser').

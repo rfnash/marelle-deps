@@ -2,4 +2,6 @@
 % sage-mathematics.pl
 % marelle-deps
 %
-linux_pkg('sage-mathematics', pacman('sage-mathematics'), 'sage-mathematics').
+pkg('sage-mathematics').
+pacman_pkg('sage-mathematics').
+met('sage-mathematics', linux(sid)) :- bash(['echo "TODO: figure out how to install sage-mathematics on debian"']).
