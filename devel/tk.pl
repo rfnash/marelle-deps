@@ -2,5 +2,4 @@
 % tk.pl
 % marelle-deps
 %
-pkg('tk').
-installs_with_pacman('tk', 'tk').
+pacman_pkg('tk').

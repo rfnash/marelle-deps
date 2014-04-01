@@ -2,5 +2,4 @@
 % php-gd.pl
 % marelle-deps
 %
-pkg('php-gd').
-installs_with_pacman('php-gd', 'php-gd').
+pacman_pkg('php-gd').

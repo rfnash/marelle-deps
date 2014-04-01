@@ -2,4 +2,4 @@
 % keynav.pl
 % marelle-deps
 %
-linux_pkg('keynav', yaourt('keynav'), 'keynav').
+linux_pkg('keynav', aur('keynav'), 'keynav').

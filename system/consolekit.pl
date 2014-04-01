@@ -2,4 +2,4 @@
 % consolekit.pl
 % marelle-deps
 %
-linux_pkg('consolekit', yaourt('consolekit'), 'consolekit').
+linux_pkg('consolekit', aur('consolekit'), 'consolekit').

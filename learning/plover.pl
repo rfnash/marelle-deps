@@ -2,5 +2,4 @@
 % plover.pl
 % marelle-deps
 %
-pkg('plover').
-installs_with_yaourt('plover', 'plover-git').
+aur_pkg('plover', 'plover-git').

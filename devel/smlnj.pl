@@ -2,4 +2,4 @@
 % smlnj.pl
 % marelle-deps
 %
-linux_pkg('smlnj', yaourt('smlnj'), 'smlnj').
+linux_pkg('smlnj', aur('smlnj'), 'smlnj').

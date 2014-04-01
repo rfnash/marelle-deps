@@ -2,4 +2,4 @@
 % rawdog.pl
 % marelle-deps
 %
-linux_pkg('rawdog', yaourt('rawdog'), 'rawdog').
+linux_pkg('rawdog', aur('rawdog'), 'rawdog').

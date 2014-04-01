@@ -55,8 +55,7 @@ linux_pkg('texlive-games', pacman('texlive-games'), 'texlive-games').
 linux_pkg('texlive-generic-extra', pacman('texlive-genericextra'), 'texlive-generic-extra').
 
 
-pkg('texlive-htmlxml', linux(arch)).
-installs_with_pacman('texlive-htmlxml', 'texlive-htmlxml').
+pacman_pkg('texlive-htmlxml').
 
 
 linux_pkg('texlive-humanities', pacman('texlive-humanities'), 'texlive-humanities').

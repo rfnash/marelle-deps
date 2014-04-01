@@ -2,4 +2,4 @@
 % paperkey.pl
 % marelle-deps
 %
-linux_pkg('paperkey', yaourt('paperkey'), 'paperkey').
+linux_pkg('paperkey', aur('paperkey'), 'paperkey').

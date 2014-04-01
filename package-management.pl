@@ -27,67 +27,52 @@ meta_pkg('package-management', [
     'deborphan'
     ], linux(sid)).
 
-pkg('abs', linux(arch)).
-installs_with_pacman('abs', 'abs').
+pacman_pkg('abs').
 
 
-pkg('archbootstrap-ee', linux(arch)).
-installs_with_yaourt('archbootstrap-ee', 'archbootstrap-ee').
+aur_pkg('archbootstrap-ee').
 
 
-pkg('arch-install-scripts', linux(arch)).
-installs_with_pacman('arch-install-scripts', 'arch-install-scripts').
+pacman_pkg('arch-install-scripts').
 
 
-pkg('aura-bin', linux(arch)).
-installs_with_yaourt('aura-bin', 'aura-bin').
+aur_pkg('aura-bin').
 
 
-pkg('aurphan', linux(arch)).
-installs_with_pacman('aurphan', 'aurphan').
+pacman_pkg('aurphan').
 
 
-pkg('aurvote', linux(arch)).
-installs_with_pacman('aurvote', 'aurvote').
+pacman_pkg('aurvote').
 
 
-pkg('findbrokenpkgs', linux(arch)).
-installs_with_yaourt('findbrokenpkgs', 'findbrokenpkgs').
+aur_pkg('findbrokenpkgs').
 
 
-pkg('namcap', linux(arch)).
-installs_with_pacman('namcap', 'namcap').
+pacman_pkg('namcap').
 
 
-pkg('pacaur', linux(arch)).
-installs_with_yaourt('pacaur', 'pacaur').
+aur_pkg('pacaur').
 
 
-pkg('pacgraph', linux(arch)).
-installs_with_pacman('pacgraph', 'pacgraph').
+pacman_pkg('pacgraph').
 
 
-pkg('packer', linux(arch)).
-installs_with_pacman('packer', 'packer').
+pacman_pkg('packer').
 
 
-pkg('pacman-color', linux(arch)).
-installs_with_yaourt('pacman-color', 'pacman-color').
+aur_pkg('pacman-color').
 
 
-pkg('pacmatic', linux(arch)).
-installs_with_pacman('pacmatic', 'pacmatic').
+pacman_pkg('pacmatic').
 
 
 linux_pkg('powerpill', pacman('powerpill'), 'powerpill').
 
 
-pkg('update-mirrorlist', linux(arch)).
-installs_with_yaourt('update-mirrorlist', 'update-mirrorlist').
+aur_pkg('update-mirrorlist').
 
 
-pkg('yaourt', linux(arch)).
-installs_with_pacman('yaourt', 'yaourt').
+pacman_pkg('yaourt').
 
 
 debian_pkg('debfoster').

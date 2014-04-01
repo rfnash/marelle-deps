@@ -2,4 +2,4 @@
 % mu.pl
 % marelle-deps
 %
-linux_pkg('mu', yaourt('mu'), 'mu4e').
+linux_pkg('mu', aur('mu'), 'mu4e').

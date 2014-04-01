@@ -2,4 +2,4 @@
 % pianobar.pl
 % marelle-deps
 %
-linux_pkg('pianobar', yaourt('pianobar-git'), 'pianobar').
+linux_pkg('pianobar', aur('pianobar-git'), 'pianobar').

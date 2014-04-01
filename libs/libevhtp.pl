@@ -2,5 +2,4 @@
 % libevhtp.pl
 % marelle-deps
 %
-pkg('libevhtp').
-installs_with_yaourt('libevhtp', 'libevhtp').
+aur_pkg('libevhtp').

@@ -2,4 +2,4 @@
 % aoeui.pl
 % marelle-deps
 %
-linux_pkg('aoeui', yaourt('aoeui'), 'aoeui').
+linux_pkg('aoeui', aur('aoeui'), 'aoeui').

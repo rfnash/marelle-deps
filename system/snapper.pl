@@ -2,4 +2,4 @@
 % snapper.pl
 % marelle-deps
 %
-linux_pkg('snapper', yaourt('snapper-git'), 'snapper').
+linux_pkg('snapper', aur('snapper-git'), 'snapper').

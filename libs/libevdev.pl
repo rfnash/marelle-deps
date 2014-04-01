@@ -2,5 +2,4 @@
 % libevdev.pl
 % marelle-deps
 %
-pkg('libevdev').
-installs_with_pacman('libevdev', 'libevdev').
+pacman_pkg('libevdev').

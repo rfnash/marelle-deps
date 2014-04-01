@@ -2,4 +2,4 @@
 % pulseaudio-equalizer.pl
 % marelle-deps
 %
-linux_pkg('pulseaudio-equalizer', yaourt('pulseaudio-equalizer'), 'pulseaudio-equalizer').
+linux_pkg('pulseaudio-equalizer', aur('pulseaudio-equalizer'), 'pulseaudio-equalizer').

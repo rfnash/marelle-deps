@@ -45,8 +45,7 @@ meta_pkg('fonts', [
     'xfonts-terminus'
     ], linux(sid)).
 
-pkg('dina-font').
-installs_with_pacman('dina-font', 'dina-font').
+pacman_pkg('dina-font').
 
 
 debian_pkg('fonts-opensymbol').
@@ -56,40 +55,32 @@ installs_with_apt('fonts-opensymbol', 'fonts-opensymbol').
 linux_pkg('otf-ipafont', pacman('otf-ipafont'), 'otf-ipafont').
 
 
-pkg('powerline-fonts-git', linux(arch)).
-installs_with_yaourt('powerline-fonts-git', 'powerline-fonts-git').
+aur_pkg('powerline-fonts-git').
 
 
-pkg('profont').
-installs_with_pacman('profont', 'profont').
+pacman_pkg('profont').
 
 
-pkg('proggyfonts').
-installs_with_yaourt('proggyfonts', 'proggyfonts').
+aur_pkg('proggyfonts').
 
 
-pkg('tamsyn-font').
-installs_with_pacman('tamsyn-font', 'tamsyn-font').
+pacman_pkg('tamsyn-font').
 
 
-pkg('terminus-font').
-installs_with_pacman('terminus-font', 'terminus-font').
+pacman_pkg('terminus-font').
 
 
-pkg('termsyn').
-installs_with_yaourt('termsyn', 'termsyn').
+aur_pkg('termsyn').
 
 
 debian_pkg('ttf-bitstream-vera').
 installs_with_apt('ttf-bitstream-vera', 'ttf-bitstream-vera').
 
 
-pkg('ttf-code2000', linux(arch)).
-installs_with_yaourt('ttf-code2000', 'ttf-code2000').
+aur_pkg('ttf-code2000').
 
 
-pkg('ttf-code2001', linux(arch)).
-installs_with_yaourt('ttf-code2001', 'ttf-code2001').
+aur_pkg('ttf-code2001').
 
 
 debian_pkg('fonts-freefont-ttf').
@@ -101,23 +92,21 @@ linux_pkg('ttf-gentium', pacman('ttf-gentium'), 'fonts-sil-gentium').
 
 linux_pkg('ttf-junicode', pacman('ttf-junicode'), 'fonts-junicode').
 
-linux_pkg('ttf-lklug', yaourt('ttf-lklug'), 'fonts-lklug-sinhala').
+linux_pkg('ttf-lklug', aur('ttf-lklug'), 'fonts-lklug-sinhala').
 
-pkg('ttf-mac-fonts', linux(arch)).
-installs_with_yaourt('ttf-mac-fonts', 'ttf-mac-fonts').
+aur_pkg('ttf-mac-fonts').
 
 
-linux_pkg('ttf-malayalam-fonts', yaourt('ttf-malayalam-fonts'), 'fonts-mlym').
+linux_pkg('ttf-malayalam-fonts', aur('ttf-malayalam-fonts'), 'fonts-mlym').
 
 
 linux_pkg('ttf-mph-2b-damase', pacman('ttf-mph-2b-damase'), 'fonts-mph-2b-damase').
 
 
-pkg('ttf-symbola', linux(arch)).
-installs_with_pacman('ttf-symbola', 'ttf-symbola').
+pacman_pkg('ttf-symbola').
 
 
-linux_pkg('ttf-unifont', yaourt('ttf-unifont'), 'ttf-unifont').
+linux_pkg('ttf-unifont', aur('ttf-unifont'), 'ttf-unifont').
 
 
 debian_pkg('unifont').

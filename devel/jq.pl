@@ -2,4 +2,4 @@
 % jq.pl
 % marelle-deps
 %
-linux_pkg('jq', yaourt('jq'), 'jq').
+linux_pkg('jq', aur('jq'), 'jq').

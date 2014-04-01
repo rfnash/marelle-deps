@@ -2,4 +2,4 @@
 % jitsi.pl
 % marelle-deps
 %
-linux_pkg('jitsi', yaourt('jitsi'), 'jitsi').
+linux_pkg('jitsi', aur('jitsi'), 'jitsi').

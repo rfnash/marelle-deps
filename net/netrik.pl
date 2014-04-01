@@ -2,4 +2,4 @@
 % netrik.pl
 % marelle-deps
 %
-linux_pkg('netrik', yaourt('netrik'), 'netrik').
+linux_pkg('netrik', aur('netrik'), 'netrik').

@@ -2,4 +2,4 @@
 % dvcs-autosync.pl
 % marelle-deps
 %
-linux_pkg('dvcs-autosync', yaourt('dvcs-autosync-git'), 'dvcs-autosync').
+linux_pkg('dvcs-autosync', aur('dvcs-autosync-git'), 'dvcs-autosync').

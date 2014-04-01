@@ -2,5 +2,4 @@
 % mongodb.pl
 % marelle-deps
 %
-pkg('mongodb').
-installs_with_pacman('mongodb', 'mongodb').
+pacman_pkg('mongodb').

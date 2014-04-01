@@ -2,4 +2,4 @@
 % freeplane.pl
 % marelle-deps
 %
-linux_pkg('freeplane', yaourt('freeplane'), 'freeplane').
+linux_pkg('freeplane', aur('freeplane'), 'freeplane').

@@ -44,35 +44,34 @@ meta_pkg('games', [
 linux_pkg('angband', pacman('angband'), 'angband').
 
 
-linux_pkg('boswars', yaourt('boswars'), 'boswars').
+linux_pkg('boswars', aur('boswars'), 'boswars').
 
 
-pkg('ccgo').
-installs_with_pacman('ccgo', 'ccgo').
+pacman_pkg('ccgo').
 
 linux_pkg('cgoban', pacman('cgoban'), 'cgoban').
 
 
 debian_pkg('crossfire-client').
-%installs_with_yaourt('crossfire-client', 'crossfire-client').
+%installs_with_aur('crossfire-client', 'crossfire-client').
 installs_with_apt('crossfire-client', 'crossfire-client').
 
 
-linux_pkg('freedink', yaourt('freedink'), 'freedink').
+linux_pkg('freedink', aur('freedink'), 'freedink').
 
 
 linux_pkg('gnubg', pacman('gnubg'), 'gnubg').
 
 
-linux_pkg('hyperrogue', yaourt('hyperrogue'), 'hyperrogue').
+linux_pkg('hyperrogue', aur('hyperrogue'), 'hyperrogue').
 
 
 debian_pkg('nethack-el').
-%installs_with_yaourt('nethack-el', 'nethack-el').
+%installs_with_aur('nethack-el', 'nethack-el').
 installs_with_apt('nethack-el', 'nethack-el').
 
 
-linux_pkg('nethack-x11', yaourt('nethack-x11'), 'nethack-x11').
+linux_pkg('nethack-x11', aur('nethack-x11'), 'nethack-x11').
 
 
 linux_pkg('oolite', pacman('oolite'), 'oolite').
@@ -81,11 +80,10 @@ linux_pkg('oolite', pacman('oolite'), 'oolite').
 linux_pkg('stone-soup', pacman('stone-soup'), 'crawl-tiles').
 
 
-pkg('terasology').
-installs_with_yaourt('terasology', 'terasology').
+aur_pkg('terasology').
 
 
-linux_pkg('tome', yaourt('tome2'), 'tome').
+linux_pkg('tome', aur('tome2'), 'tome').
 
 
 linux_pkg('wesnoth', pacman('wesnoth'), 'wesnoth').

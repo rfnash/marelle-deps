@@ -2,4 +2,4 @@
 % arm.pl
 % marelle-deps
 %
-linux_pkg('arm', yaourt('arm'), 'tor-arm').
+linux_pkg('arm', aur('arm'), 'tor-arm').

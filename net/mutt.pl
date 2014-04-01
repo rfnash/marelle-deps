@@ -3,4 +3,4 @@
 % marelle-deps
 %
 
-linux_pkg('mutt', yaourt('mutt-kz'), 'mutt-patched').
+linux_pkg('mutt', aur('mutt-kz'), 'mutt-patched').
