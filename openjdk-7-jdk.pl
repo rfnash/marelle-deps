@@ -1,1 +1,0 @@
-devel/openjdk-7-jdk.pl

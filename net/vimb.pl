@@ -2,6 +2,5 @@
 % vimb.pl
 % marelle-deps
 %
-pkg('vimb').
-installs_with_aur('vimb', 'vimb-git').
-met('vimb', linux(sid)) :- bash(['echo "TODO: figure out how to install vimb on debian"']).
+
+aur_pkg('vimb', 'vimb-git').

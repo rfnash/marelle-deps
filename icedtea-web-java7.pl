@@ -1,1 +1,0 @@
-net/icedtea-web-java7.pl
