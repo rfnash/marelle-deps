@@ -15,6 +15,7 @@ meta_pkg('games', [
     %'nethack-el',
     'nethack-x11',
     'oolite',
+    'pokerth',
     'stone-soup',
     'terasology',
     'tome',
@@ -34,6 +35,7 @@ meta_pkg('games', [
     'nethack-el',
     'nethack-x11',
     'oolite',
+    'pokerth',
     'stone-soup',
     'tome',
     'wesnoth',
@@ -95,3 +97,6 @@ installs_with_apt('xbattle', 'xbattle').
 
 
 linux_pkg('xmahjongg', pacman('xmahjongg'), 'xmahjongg').
+
+
+linux_pkg('pokerth', pacman('pokerth'), 'pokerth').
