@@ -1,1 +1,0 @@
-X11/xf86-video-intel-xwayland-git.pl
