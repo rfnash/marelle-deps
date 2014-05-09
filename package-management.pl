@@ -16,7 +16,6 @@ meta_pkg('package-management', [
     'pacaur',
     'pacgraph',
     'packer',
-    'pacman-color',
     'pacmatic',
     'powerpill',
     'update-mirrorlist',
@@ -58,9 +57,6 @@ pacman_pkg('pacgraph').
 
 
 pacman_pkg('packer').
-
-
-aur_pkg('pacman-color').
 
 
 pacman_pkg('pacmatic').

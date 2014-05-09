@@ -1,1 +1,0 @@
-net/msmtp-mta.pl
