@@ -6,7 +6,7 @@
 meta_pkg('fonts', [
     'dina-font',
     'otf-ipafont',
-    'powerline-fonts-git',
+    'terminess-powerline-font',
     'profont',
     'proggyfonts',
     'tamsyn-font',
@@ -55,7 +55,7 @@ installs_with_apt('fonts-opensymbol', 'fonts-opensymbol').
 linux_pkg('otf-ipafont', pacman('otf-ipafont'), 'otf-ipafont').
 
 
-aur_pkg('powerline-fonts-git').
+aur_pkg('terminess-powerline-font').
 
 
 pacman_pkg('profont').
