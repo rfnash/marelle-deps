@@ -3,4 +3,4 @@
 % marelle-deps
 %
 
-pacman_pkg('sage-mathematics').
+%pacman_pkg('sage-mathematics').
