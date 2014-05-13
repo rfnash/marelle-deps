@@ -2,4 +2,4 @@
 % lzip.pl
 % marelle-deps
 %
-linux_pkg('lzip', pacman('lzip'), 'lzip').
+linux_pkg('lzip', aur('lzip'), 'lzip').

@@ -2,4 +2,4 @@
 % lightscript.pl
 % marelle-deps
 %
-linux_pkg('lightscript', pacman('lightscript'), 'lightscript').
+linux_pkg('lightscript', aur('lightscript'), 'lightscript').

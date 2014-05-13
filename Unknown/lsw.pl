@@ -2,4 +2,4 @@
 % lsw.pl
 % marelle-deps
 %
-linux_pkg('lsw', pacman('lsw'), 'lsw').
+linux_pkg('lsw', aur('lsw'), 'lsw').

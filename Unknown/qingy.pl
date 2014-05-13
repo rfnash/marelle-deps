@@ -2,4 +2,4 @@
 % qingy.pl
 % marelle-deps
 %
-linux_pkg('qingy', pacman('qingy'), 'qingy').
+linux_pkg('qingy', aur('qingy'), 'qingy').

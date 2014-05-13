@@ -2,4 +2,4 @@
 % vms-empire.pl
 % marelle-deps
 %
-linux_pkg('vms-empire', pacman('vms-empire'), 'vms-empire').
+linux_pkg('vms-empire', aur('vms-empire'), 'vms-empire').

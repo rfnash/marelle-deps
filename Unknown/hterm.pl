@@ -2,4 +2,4 @@
 % hterm.pl
 % marelle-deps
 %
-linux_pkg('hterm', pacman('hterm'), 'hterm').
+linux_pkg('hterm', aur('hterm'), 'hterm').

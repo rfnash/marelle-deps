@@ -2,4 +2,4 @@
 % hr-git.pl
 % marelle-deps
 %
-linux_pkg('hr-git', pacman('hr-git'), 'hr-git').
+linux_pkg('hr-git', aur('hr-git'), 'hr-git').

@@ -2,4 +2,4 @@
 % alsa-utils.pl
 % marelle-deps
 %
-installs_with_apt('alsa-utils', pacman('alsa-utils'), 'alsa-utils').
+linux_pkg('alsa-utils', pacman('alsa-utils'), 'alsa-utils').

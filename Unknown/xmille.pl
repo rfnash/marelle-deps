@@ -2,4 +2,4 @@
 % xmille.pl
 % marelle-deps
 %
-linux_pkg('xmille', pacman('xmille'), 'xmille').
+linux_pkg('xmille', aur('xmille'), 'xmille').
