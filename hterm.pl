@@ -1,5 +1,1 @@
-%
-% hterm.pl
-% marelle-deps
-%
-linux_pkg('hterm', aur('hterm'), 'hterm').
+Unknown/hterm.pl
