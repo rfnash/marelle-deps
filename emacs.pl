@@ -1,1 +1,0 @@
-editors/emacs.pl

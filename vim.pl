@@ -1,1 +1,0 @@
-editors/vim.pl
