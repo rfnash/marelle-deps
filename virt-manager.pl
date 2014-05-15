@@ -1,1 +1,0 @@
-virtualization/virt-manager.pl
