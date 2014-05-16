@@ -1,1 +1,0 @@
-net/php5-gd.pl

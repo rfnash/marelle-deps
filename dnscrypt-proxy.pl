@@ -1,1 +1,0 @@
-net/dnscrypt-proxy.pl

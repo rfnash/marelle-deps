@@ -1,1 +1,0 @@
-net/icedtea-plugin.pl

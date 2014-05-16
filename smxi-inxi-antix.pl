@@ -1,1 +1,0 @@
-net/smxi-inxi-antix.pl

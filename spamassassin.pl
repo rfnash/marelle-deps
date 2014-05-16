@@ -1,1 +1,0 @@
-net/spamassassin.pl

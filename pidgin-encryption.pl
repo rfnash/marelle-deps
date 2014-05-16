@@ -1,1 +1,0 @@
-net/pidgin-encryption.pl

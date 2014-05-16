@@ -1,1 +1,0 @@
-net/mailx.pl

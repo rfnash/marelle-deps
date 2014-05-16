@@ -1,1 +1,0 @@
-net/bitlbee.pl
