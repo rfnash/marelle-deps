@@ -1,1 +1,0 @@
-devel/glibc-doc.pl

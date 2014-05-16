@@ -1,1 +1,0 @@
-devel/man-db.pl

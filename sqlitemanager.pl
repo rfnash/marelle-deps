@@ -1,1 +1,0 @@
-devel/sqlitemanager.pl

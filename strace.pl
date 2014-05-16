@@ -1,1 +1,0 @@
-devel/strace.pl

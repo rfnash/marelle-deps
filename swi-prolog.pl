@@ -1,1 +1,0 @@
-devel/swi-prolog.pl

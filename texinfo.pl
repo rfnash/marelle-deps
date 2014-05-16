@@ -1,1 +1,0 @@
-devel/texinfo.pl

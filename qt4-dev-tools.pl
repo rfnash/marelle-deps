@@ -1,1 +1,0 @@
-devel/qt4-dev-tools.pl

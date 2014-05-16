@@ -1,1 +1,0 @@
-devel/libtool.pl

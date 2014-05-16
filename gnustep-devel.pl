@@ -1,1 +1,0 @@
-devel/gnustep-devel.pl
