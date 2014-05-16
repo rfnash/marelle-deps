@@ -1,1 +1,0 @@
-libs/libsdl1.2-dev.pl

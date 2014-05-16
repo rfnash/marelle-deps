@@ -1,1 +1,0 @@
-libs/libspeexdsp-dev.pl

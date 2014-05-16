@@ -1,1 +1,0 @@
-libs/libavdevice54.pl

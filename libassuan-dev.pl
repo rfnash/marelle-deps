@@ -1,1 +1,0 @@
-libs/libassuan-dev.pl

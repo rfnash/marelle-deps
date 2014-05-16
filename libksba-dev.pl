@@ -1,1 +1,0 @@
-libs/libksba-dev.pl

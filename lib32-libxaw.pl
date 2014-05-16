@@ -1,1 +1,0 @@
-libs/lib32-libxaw.pl

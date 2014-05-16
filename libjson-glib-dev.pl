@@ -1,1 +1,0 @@
-libs/libjson-glib-dev.pl

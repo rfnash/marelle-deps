@@ -1,1 +1,0 @@
-libs/libxcb-randr0-dev.pl

@@ -1,1 +1,0 @@
-libs/lib32-libpulse.pl

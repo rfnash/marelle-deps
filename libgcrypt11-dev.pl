@@ -1,1 +1,0 @@
-libs/libgcrypt11-dev.pl

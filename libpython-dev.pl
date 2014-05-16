@@ -1,1 +1,0 @@
-libs/libpython-dev.pl
