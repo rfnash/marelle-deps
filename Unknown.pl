@@ -79,7 +79,6 @@ linux_pkg('mbrola', aur('mbrola'), 'mbrola').
 debian_pkg('mc-data').
 installs_with_apt('mc-data', 'mc-data').
 linux_pkg('metalog', pacman('metalog'), 'metalog').
-linux_pkg('monkeysphere', pacman('monkeysphere'), 'monkeysphere').
 linux_pkg('mplus-bitmap-fonts', aur('mplus-bitmap-fonts'), 'mplus-bitmap-fonts').
 linux_pkg('msmtp', pacman('msmtp'), 'msmtp').
 linux_pkg('openbox', pacman('openbox'), 'openbox').
