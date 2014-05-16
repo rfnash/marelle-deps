@@ -1,1 +1,0 @@
-Unknown/libquvi-scripts-nsfw.pl

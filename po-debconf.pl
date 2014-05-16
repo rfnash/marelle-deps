@@ -1,1 +1,0 @@
-Unknown/po-debconf.pl

@@ -1,1 +1,0 @@
-Unknown/tt-rss.pl

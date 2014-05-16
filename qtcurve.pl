@@ -1,1 +1,0 @@
-Unknown/qtcurve.pl
