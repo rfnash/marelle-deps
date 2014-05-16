@@ -1,1 +1,0 @@
-system/laptop-detect.pl

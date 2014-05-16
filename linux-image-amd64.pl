@@ -1,1 +1,0 @@
-system/linux-image-amd64.pl

@@ -1,1 +1,0 @@
-system/firmware-linux.pl

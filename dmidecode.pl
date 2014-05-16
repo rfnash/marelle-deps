@@ -1,1 +1,0 @@
-system/dmidecode.pl

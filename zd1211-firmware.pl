@@ -1,1 +1,0 @@
-system/zd1211-firmware.pl

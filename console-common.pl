@@ -1,1 +1,0 @@
-system/console-common.pl

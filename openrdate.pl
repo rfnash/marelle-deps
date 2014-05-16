@@ -1,1 +1,0 @@
-system/openrdate.pl

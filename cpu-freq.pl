@@ -1,1 +1,0 @@
-system/cpu-freq.pl

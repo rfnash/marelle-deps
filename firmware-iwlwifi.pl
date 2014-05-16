@@ -1,1 +1,0 @@
-system/firmware-iwlwifi.pl

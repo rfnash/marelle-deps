@@ -1,1 +1,0 @@
-system/system-config-printer.pl
