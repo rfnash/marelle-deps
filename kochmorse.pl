@@ -1,1 +1,0 @@
-learning/kochmorse.pl
