@@ -1,1 +1,0 @@
-python/python3-setuptools.pl

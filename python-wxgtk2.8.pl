@@ -1,1 +1,0 @@
-python/python-wxgtk2.8.pl
