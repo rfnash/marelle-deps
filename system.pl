@@ -122,6 +122,4 @@ installs_with_apt('uswsusp', 'uswsusp').
 linux_pkg('xfsprogs', pacman('xfsprogs'), 'xfsprogs').
 debian_pkg('zd1211-firmware').
 installs_with_apt('zd1211-firmware', 'zd1211-firmware').
-linux_pkg('zfs', aur('zfs-dkms-therp'), 'zfs-dkms').
-
 linux_pkg('zsh', pacman('zsh-completions'), 'zsh').
