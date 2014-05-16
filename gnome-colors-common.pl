@@ -1,1 +1,0 @@
-X11/gnome-colors-common.pl

@@ -1,1 +1,0 @@
-X11/xf86-input-synaptics.pl

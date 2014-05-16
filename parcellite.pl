@@ -1,1 +1,0 @@
-X11/parcellite.pl
