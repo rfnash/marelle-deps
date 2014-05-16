@@ -145,3 +145,12 @@ linux_pkg('xmlto', pacman('xmlto'), 'xmlto').
 linux_pkg('xorg-server-utils', pacman('xorg-server-utils'), 'xorg-server-utils').
 linux_pkg('xorg-server', pacman('xorg-server'), 'xorg-server').
 linux_pkg('xorg-util-macros', pacman('xorg-util-macros'), 'xorg-util-macros').
+aur_pkg('curveprotect').
+aur_pkg('dar').
+pacman_pkg('most').
+pacman_pkg('par2cmdline').
+pacman_pkg('spl-git').
+pacman_pkg('spl-utils-git').
+aur_pkg('tinyssh').
+pacman_pkg('zfs-git').
+pacman_pkg('zfs-utils-git').
