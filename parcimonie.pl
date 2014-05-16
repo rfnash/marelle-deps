@@ -1,1 +1,0 @@
-office/parcimonie.pl

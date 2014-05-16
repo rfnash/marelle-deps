@@ -1,1 +1,0 @@
-office/p7zip.pl

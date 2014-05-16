@@ -1,1 +1,0 @@
-office/hunspell-en.pl

@@ -1,1 +1,0 @@
-office/devede.pl

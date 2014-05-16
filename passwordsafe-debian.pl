@@ -1,1 +1,0 @@
-office/passwordsafe-debian.pl

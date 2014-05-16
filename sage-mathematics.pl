@@ -1,1 +1,0 @@
-office/sage-mathematics.pl

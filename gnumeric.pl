@@ -1,1 +1,0 @@
-office/gnumeric.pl

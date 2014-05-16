@@ -1,1 +1,0 @@
-office/aspell-en.pl

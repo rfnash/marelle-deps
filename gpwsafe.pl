@@ -1,1 +1,0 @@
-office/gpwsafe.pl
