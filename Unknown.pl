@@ -115,7 +115,7 @@ linux_pkg('silc-toolkit', aur('silc-toolkit'), 'silc-toolkit').
 pacman_pkg('smem').
 linux_pkg('socklog-musl', aur('socklog-musl'), 'socklog-musl').
 linux_pkg('sudo', pacman('sudo'), 'sudo').
-linux_pkg('sysdig-git', aur('sysdig-git'), 'sysdig-git').
+linux_pkg('sysdig-git', aur('sysdig-git'), 'sysdig').
 linux_pkg('sysfsutils', pacman('sysfsutils'), 'sysfsutils').
 linux_pkg('syslog-notify', aur('syslog-notify'), 'syslog-notify').
 debian_pkg('systemd').

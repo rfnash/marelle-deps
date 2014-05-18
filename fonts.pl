@@ -84,7 +84,7 @@ aur_pkg('ttf-code2001').
 
 
 debian_pkg('fonts-freefont-ttf').
-installs_with_apt('fonts-freefont-ttf', 'fonts-freefont-ttf').
+installs_with_apt('fonts-freefont-ttf', ['fonts-freefont-ttf', 'ttf-freefont']).
 
 
 linux_pkg('ttf-gentium', pacman('ttf-gentium'), 'fonts-sil-gentium').
@@ -97,7 +97,7 @@ linux_pkg('ttf-lklug', aur('ttf-lklug'), 'fonts-lklug-sinhala').
 aur_pkg('ttf-mac-fonts').
 
 
-linux_pkg('ttf-malayalam-fonts', aur('ttf-malayalam-fonts'), 'fonts-mlym').
+linux_pkg('ttf-malayalam-fonts', aur('ttf-malayalam-fonts'), ['fonts-mlym', 'ttf-malayalam-fonts']).
 
 
 linux_pkg('ttf-mph-2b-damase', pacman('ttf-mph-2b-damase'), 'fonts-mph-2b-damase').

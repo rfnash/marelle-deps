@@ -47,11 +47,15 @@ aur_pkg('ignite-rfnash-git').
 linux_pkg('ksh', aur('ksh'), 'ksh').
 debian_pkg('laptop-detect').
 installs_with_apt('laptop-detect', 'laptop-detect').
-debian_pkg('linux-headers-3.12-1-amd64').
-installs_with_apt('linux-headers-3.12-1-amd64', 'linux-headers-3.12-1-amd64').
+debian_pkg('linux-headers-3.13-1-amd64').
+installs_with_apt('linux-headers-3.13-1-amd64', 'linux-headers-3.13-1-amd64').
+debian_pkg('linux-headers-3.11-2-amd64').
+installs_with_apt('linux-headers-3.11-2-amd64', 'linux-headers-3.11-2-amd64').
 linux_pkg('linux-headers', pacman('linux-headers'), 'linux-headers-amd64').
-debian_pkg('linux-image-3.12-1-amd64').
-installs_with_apt('linux-image-3.12-1-amd64', 'linux-image-3.12-1-amd64').
+debian_pkg('linux-image-3.13-1-amd64').
+installs_with_apt('linux-image-3.13-1-amd64', 'linux-image-3.13-1-amd64').
+debian_pkg('linux-image-3.11-2-amd64').
+installs_with_apt('linux-image-3.11-2-amd64', 'linux-image-3.11-2-amd64').
 debian_pkg('linux-image-amd64').
 installs_with_apt('linux-image-amd64', 'linux-image-amd64').
 debian_pkg('linux-wlan-ng').

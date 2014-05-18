@@ -87,7 +87,7 @@ debian_pkg('netsurf-fb').
 installs_with_apt('netsurf-fb', 'netsurf-fb').
 
 
-linux_pkg('netsurf', pacman('netsurf-libre'), 'netsurf-gtk').
+linux_pkg('netsurf', pacman('netsurf-libre'), ['netsurf', 'netsurf-gtk']).
 linux_pkg('newsbeuter', pacman('newsbeuter'), 'newsbeuter').
 linux_pkg('nginx', pacman('nginx'), 'nginx').
 linux_pkg('nmap', pacman('nmap'), 'nmap').

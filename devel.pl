@@ -76,7 +76,7 @@ debian_pkg('silversearcher-ag').
 installs_with_apt('silversearcher-ag', 'silversearcher-ag').
 linux_pkg('sloccount', pacman('sloccount'), 'sloccount').
 linux_pkg('smlnj', aur('smlnj'), 'smlnj').
-pacman_pkg('sqlitebrowser').
+linux_pkg('sqlitebrowser', pacman('sqlitebrowser'), 'sqlitebrowser').
 pacman_pkg('sqliteman').
 pacman_pkg('sqlitemanager').
 linux_pkg('strace', pacman('strace'), 'strace').

@@ -26,6 +26,7 @@ linux_pkg('pianobar', aur('pianobar-git'), 'pianobar').
 linux_pkg('picard', pacman('picard'), 'picard').
 pacman_pkg('pulseaudio-alsa').
 debian_pkg('pulseaudio-utils').
+debian_pkg('pulseaudio-equalizer').
 installs_with_apt('pulseaudio-utils', 'pulseaudio-utils').
 debian_pkg('pulseaudio').
 installs_with_apt('pulseaudio', 'pulseaudio').
