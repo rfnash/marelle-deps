@@ -8,7 +8,7 @@ linux_pkg('atop', pacman('atop'), 'atop').
 linux_pkg('bash', pacman('bash'), 'bash').
 linux_pkg('binutils', pacman('binutils'), 'binutils').
 linux_pkg('bzip2', pacman('bzip2'), 'bzip2').
-linux_pkg('cacert-dot-org', pacman('cacert-dot-org'), 'cacert-dot-org').
+pacman_pkg('cacert-dot-org').
 linux_pkg('coq-nox', aur('coq-nox'), 'coq-nox').
 linux_pkg('coreutils', pacman('coreutils'), 'coreutils').
 linux_pkg('daemontools', aur('daemontools'), 'daemontools').
