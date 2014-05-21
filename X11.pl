@@ -22,8 +22,6 @@ debian_pkg('mesa-utils').
 installs_with_apt('mesa-utils', 'mesa-utils').
 linux_pkg('parcellite', pacman('parcellite'), 'parcellite').
 linux_pkg('pekwm', pacman('pekwm'), 'pekwm').
-linux_pkg('qtcurve-gtk2', pacman('qtcurve-gtk2'), 'qtcurve-gtk2').
-linux_pkg('qtcurve-qt4', pacman('qtcurve-qt4'), 'qtcurve-qt4').
 debian_pkg('ratpoison').
 installs_with_apt('ratpoison', 'ratpoison').
 linux_pkg('redshift', pacman('redshift'), 'redshift').
@@ -46,7 +44,7 @@ installs_with_apt('xdotool', 'xdotool').
 linux_pkg('xf86-input-keyboard', pacman('xf86-input-keyboard'), 'xserver-xorg-input-kbd').
 linux_pkg('xf86-input-mouse', pacman('xf86-input-mouse'), 'xserver-xorg-input-mouse').
 linux_pkg('xf86-input-synaptics', pacman('xf86-input-synaptics'), 'xserver-xorg-input-synaptics').
-linux_pkg('xf86-video-intel', pacman('xf86-video-intel'), 'xf86-video-intel').
+linux_pkg('xf86-video-intel', pacman('xf86-video-intel'), 'xserver-xorg-video-intel').
 debian_pkg('xloadimage').
 installs_with_apt('xloadimage', 'xloadimage').
 debian_pkg('xlockmore').

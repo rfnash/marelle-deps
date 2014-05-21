@@ -121,7 +121,6 @@ linux_pkg('quvi', pacman('quvi'), 'quvi').
 linux_pkg('radvd', pacman('radvd'), 'radvd').
 linux_pkg('rawdog', aur('rawdog'), 'rawdog').
 linux_pkg('razor', pacman('razor'), 'razor').
-linux_pkg('s-nail', pacman('s-nail'), 's-nail').
 debian_pkg('samba-tools').
 installs_with_apt('samba-tools', 'samba-tools').
 linux_pkg('sflphone', aur('sflphone'), 'sflphone-gnome').

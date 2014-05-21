@@ -90,4 +90,6 @@ linux_pkg('the_silver_searcher', pacman('the_silver_searcher'), 'silversearcher-
 debian_pkg('tk-dev').
 installs_with_apt('tk-dev', 'tk-dev').
 linux_pkg('tk', pacman('tk'), 'tk-dev').
-linux_pkg('v8', pacman('v8'), 'libv8-dev').
+linux_pkg('v8', pacman('v8'), 'npm').
+%linux_pkg('v8', pacman('v8'), 'libv8-dev').
+debian_pkg('musl-tools').

@@ -17,8 +17,6 @@ debian_pkg('libavdevice54').
 installs_with_apt('libavdevice54', 'libavdevice54').
 debian_pkg('libboost-all-dev').
 installs_with_apt('libboost-all-dev', 'libboost-all-dev').
-debian_pkg('libboost1.54-dev').
-installs_with_apt('libboost1.54-dev', 'libboost1.54-dev').
 debian_pkg('libcap-dev').
 installs_with_apt('libcap-dev', 'libcap-dev').
 debian_pkg('libevdev-dev').
