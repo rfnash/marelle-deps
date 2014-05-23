@@ -149,3 +149,4 @@ pacman_pkg('spl-utils-git').
 aur_pkg('tinyssh').
 pacman_pkg('zfs-git').
 pacman_pkg('zfs-utils-git').
+debian_pkg('taskwarrior').
