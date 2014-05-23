@@ -39,7 +39,7 @@ debian_pkg('glibc-doc').
 installs_with_apt('glibc-doc', 'glibc-doc').
 debian_pkg('gnustep-devel').
 installs_with_apt('gnustep-devel', 'gnustep-devel').
-pacman_pkg('go').
+linux_pkg('golang', pacman('go'), 'golang').
 linux_pkg('indent', pacman('indent'), 'indent').
 debian_pkg('intltool').
 installs_with_apt('intltool', 'intltool').
