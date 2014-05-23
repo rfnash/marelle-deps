@@ -54,7 +54,7 @@ linux_pkg('make', pacman('make'), 'make').
 linux_pkg('man-db', pacman('man-db'), 'man-db').
 linux_pkg('man-pages', pacman('man-pages'), 'manpages').
 linux_pkg('nasm', pacman('nasm'), 'nasm').
-linux_pkg('nodejs', pacman('nodejs'), 'nodejs').
+linux_pkg('nodejs', pacman('nodejs'), ['nodejs', 'nodejs-legacy']).
 debian_pkg('npm').
 installs_with_apt('npm', 'npm').
 aur_pkg('oniguruma').
