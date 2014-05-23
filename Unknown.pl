@@ -150,3 +150,4 @@ aur_pkg('tinyssh').
 pacman_pkg('zfs-git').
 pacman_pkg('zfs-utils-git').
 debian_pkg('taskwarrior').
+linux_pkg('taskcoach', pacman_pkg('taskcoach'), 'taskcoach').
