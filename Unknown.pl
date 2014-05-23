@@ -41,7 +41,7 @@ linux_pkg('gnunet-gtk', pacman('gnunet-gtk'), 'gnunet-gtk').
 pacman_pkg('gradm').
 linux_pkg('grep', pacman('grep'), 'grep').
 linux_pkg('groff', pacman('groff'), 'groff').
-pacman_pkg('gtypist').
+linux_pkg('gtypist', pacman('gtypist'), 'gtypist').
 linux_pkg('gzip', pacman('gzip'), 'gzip').
 linux_pkg('hexchat-libre', pacman('hexchat-libre'), 'hexchat').
 aur_pkg('hr-git').
