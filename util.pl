@@ -7,7 +7,7 @@ debian_pkg('ansible-doc').
 installs_with_apt('ansible-doc', 'ansible-doc').
 linux_pkg('autojump', pacman('autojump'), 'autojump').
 linux_pkg('ddrescue', pacman('ddrescue'), 'gddrescue').
-linux_pkg('docker', pacman('docker'), 'docker').
+linux_pkg('docker', pacman('docker'), 'docker.io').
 linux_pkg('fbterm', pacman('fbterm'), 'fbterm').
 linux_pkg('fsarchiver', pacman('fsarchiver'), 'fsarchiver').
 debian_pkg('fuse-utils').
