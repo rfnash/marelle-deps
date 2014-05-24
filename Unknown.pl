@@ -14,10 +14,8 @@ linux_pkg('coreutils', pacman('coreutils'), 'coreutils').
 linux_pkg('daemontools', aur('daemontools'), 'daemontools').
 linux_pkg('dbtoepub', aur('dbtoepub'), 'dbtoepub').
 debian_pkg('dctrl-tools').
-installs_with_apt('dctrl-tools', 'dctrl-tools').
 pacman('device-mapper').
 debian_pkg('dh-python').
-installs_with_apt('dh-python', 'dh-python').
 linux_pkg('diffutils', pacman('diffutils'), 'diffutils').
 linux_pkg('dnsmasq', pacman('dnsmasq'), 'dnsmasq').
 aur_pkg('dwarffortress-ironhand').
@@ -76,7 +74,6 @@ linux_pkg('mbrola-voices-us2', aur('mbrola-voices-us2'), 'mbrola-us2').
 linux_pkg('mbrola-voices-us3', aur('mbrola-voices-us3'), 'mbrola-us3').
 linux_pkg('mbrola', aur('mbrola'), 'mbrola').
 debian_pkg('mc-data').
-installs_with_apt('mc-data', 'mc-data').
 pacman_pkg('metalog').
 linux_pkg('mplus-bitmap-fonts', aur('mplus-bitmap-fonts'), ['fonts-mplus', 'xfonts-mplus']).
 linux_pkg('msmtp', pacman('msmtp'), 'msmtp').
@@ -103,7 +100,6 @@ pacman_pkg('python2-sqlalchemy').
 linux_pkg('qingy', aur('qingy'), 'qingy').
 linux_pkg('qtcurve', pacman(['qtcurve-gtk2','qtcurve-qt4']), 'qtcurve').
 debian_pkg('rcconf').
-installs_with_apt('rcconf', 'rcconf').
 linux_pkg('recutils', aur('recutils'), 'recutils').
 pacman_pkg('reflector').
 linux_pkg('sed', pacman('sed'), 'sed').
@@ -134,7 +130,6 @@ pacman_pkg('which').
 
 pacman_pkg('wine_gecko').
 debian_pkg('xbase-clients').
-installs_with_apt('xbase-clients', 'xbase-clients').
 linux_pkg('xmille', aur('xmille'), 'xmille').
 linux_pkg('xmlto', pacman('xmlto'), 'xmlto').
 pacman_pkg('xorg-server-utils').

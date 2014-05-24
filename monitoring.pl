@@ -5,9 +5,7 @@
 linux_pkg('arm', aur('arm'), 'tor-arm').
 linux_pkg('atop', pacman('atop'), 'atop').
 linux_pkg('collectd', pacman('collectd'), 'collectd').
-debian_pkg('htop').
-installs_with_aur('htop', 'htop-solarized-vi').
-installs_with_apt('htop', 'htop').
+linux_pkg('htop', aur('htop-solarized-vi'), 'htop').
 linux_pkg('iotop', pacman('iotop'), 'iotop').
 aur_pkg('monitorix').
 linux_pkg('mtr', pacman('mtr'), 'mtr').

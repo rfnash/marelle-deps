@@ -49,7 +49,6 @@ pacman_pkg('dina-font').
 
 
 debian_pkg('fonts-opensymbol').
-installs_with_apt('fonts-opensymbol', 'fonts-opensymbol').
 
 
 linux_pkg('otf-ipafont', pacman('otf-ipafont'), 'otf-ipafont').
@@ -74,7 +73,6 @@ aur_pkg('termsyn').
 
 
 debian_pkg('ttf-bitstream-vera').
-installs_with_apt('ttf-bitstream-vera', 'ttf-bitstream-vera').
 
 
 aur_pkg('ttf-code2000').
@@ -83,8 +81,7 @@ aur_pkg('ttf-code2000').
 aur_pkg('ttf-code2001').
 
 
-debian_pkg('fonts-freefont-ttf').
-installs_with_apt('fonts-freefont-ttf', ['fonts-freefont-ttf', 'ttf-freefont']).
+debian_pkg('fonts-freefont-ttf', ['fonts-freefont-ttf', 'ttf-freefont']).
 
 
 linux_pkg('ttf-gentium', pacman('ttf-gentium'), 'fonts-sil-gentium').
@@ -110,23 +107,18 @@ linux_pkg('ttf-unifont', aur('ttf-unifont'), 'ttf-unifont').
 
 
 debian_pkg('unifont').
-installs_with_apt('unifont', 'unifont').
 
 
 debian_pkg('xfonts-intl-asian').
-installs_with_apt('xfonts-intl-asian', 'xfonts-intl-asian').
 
 
 debian_pkg('xfonts-intl-european').
-installs_with_apt('xfonts-intl-european', 'xfonts-intl-european').
 
 
 debian_pkg('xfonts-intl-japanese').
-installs_with_apt('xfonts-intl-japanese', 'xfonts-intl-japanese').
 
 
 debian_pkg('xfonts-terminus').
-installs_with_apt('xfonts-terminus', 'xfonts-terminus').
 
 
 linux_pkg('xorg-fonts-100dpi', pacman('xorg-fonts-100dpi-libre'), 'xfonts-100dpi').

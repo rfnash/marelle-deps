@@ -37,7 +37,6 @@ meta_pkg('tex', [
     ], linux(sid)).
 
 debian_pkg('texlive').
-installs_with_apt('texlive', 'texlive').
 
 
 linux_pkg('texlive-bibtex-extra', pacman('texlive-bibtexextra'), 'texlive-bibtex-extra').
@@ -62,7 +61,6 @@ linux_pkg('texlive-humanities', pacman('texlive-humanities'), 'texlive-humanitie
 
 
 debian_pkg('texlive-latex-extra').
-installs_with_apt('texlive-latex-extra', 'texlive-latex-extra').
 
 
 linux_pkg('texlive-music', pacman('texlive-music'), 'texlive-music').
@@ -84,4 +82,3 @@ linux_pkg('texlive-science', pacman('texlive-science'), 'texlive-science').
 
 
 debian_pkg('texlive-xetex').
-installs_with_apt('texlive-xetex', 'texlive-xetex').

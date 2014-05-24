@@ -72,8 +72,6 @@ pacman_pkg('yaourt').
 
 
 debian_pkg('debfoster').
-installs_with_apt('debfoster', 'debfoster').
 
 
 debian_pkg('deborphan').
-installs_with_apt('deborphan', 'deborphan').

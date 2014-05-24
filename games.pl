@@ -55,8 +55,7 @@ linux_pkg('cgoban', pacman('cgoban'), 'cgoban').
 
 
 debian_pkg('crossfire-client').
-%installs_with_aur('crossfire-client', 'crossfire-client').
-installs_with_apt('crossfire-client', 'crossfire-client').
+%aur_pkg('crossfire-client').
 
 
 linux_pkg('freedink', aur('freedink'), 'freedink').
@@ -69,8 +68,7 @@ linux_pkg('hyperrogue', aur('hyperrogue'), 'hyperrogue').
 
 
 debian_pkg('nethack-el').
-%installs_with_aur('nethack-el', 'nethack-el').
-installs_with_apt('nethack-el', 'nethack-el').
+%aur_pkg('nethack-el').
 
 
 linux_pkg('nethack-x11', aur('nethack-x11'), 'nethack-x11').
@@ -92,8 +90,7 @@ linux_pkg('wesnoth', pacman('wesnoth'), 'wesnoth').
 
 
 debian_pkg('xbattle').
-%installs_with_pacman('xbattle', 'xbattle').
-installs_with_apt('xbattle', 'xbattle').
+%pacman_pkg('xbattle').
 
 
 linux_pkg('xmahjongg', pacman('xmahjongg'), 'xmahjongg').
