@@ -58,8 +58,10 @@ debian_pkg('openjdk', ['openjdk-6-jre','openjdk-7-jdk','openjdk-7-jre']).
 linux_pkg('patch', pacman('patch'), 'patch').
 linux_pkg('perl', pacman('perl'), 'perl').
 pacman_pkg('perl-datetime').
+linux_pkg('pip', pacman(['python-pip', 'python2-pip']), ['python-pip', 'python3-pip']).
 linux_pkg('pkg-config', pacman('pkg-config'), 'pkg-config').
 linux_pkg('pmccabe', aur('pmccabe'), 'pmccabe').
+pacman_pkg('python2-notify').
 debian_pkg('qt4-dev-tools').
 linux_pkg('qt5-quick1', pacman('qt5-quick1'), ['qtquick1-5-dev-tools','qtquick1-5-dev']).
 pacman_pkg('r').
