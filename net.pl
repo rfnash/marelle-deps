@@ -114,4 +114,17 @@ debian_pkg('wpagui').
 debian_pkg('wpasupplicant').
 debian_pkg('xinetd').
 debian_pkg('xul-ext-monkeysphere').
+linux_pkg('aria2', pacman('aria2'), 'aria2').
+pacman_pkg('cacert-dot-org').
+linux_pkg('git', pacman('git'), 'git').
+linux_pkg('edbrowse', aur('edbrowse'), 'edbrowse').
+linux_pkg('hexchat-libre', pacman('hexchat-libre'), 'hexchat').
+linux_pkg('gnunet-gtk', pacman('gnunet-gtk'), 'gnunet-gtk').
+pacman_pkg('lynx').
+linux_pkg('dnsmasq', pacman('dnsmasq'), 'dnsmasq').
+aur_pkg('curveprotect').
+linux_pkg('msmtp', pacman('msmtp'), 'msmtp').
+aur_pkg('silc-toolkit').
+linux_pkg('tidy', aur('tidy-html5-git'), 'tidy').
+aur_pkg('tinyssh').
 linux_pkg('znc', pacman('znc'), 'znc').

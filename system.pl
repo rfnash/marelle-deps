@@ -90,3 +90,45 @@ debian_pkg('uswsusp').
 linux_pkg('xfsprogs', pacman('xfsprogs'), 'xfsprogs').
 debian_pkg('zd1211-firmware').
 linux_pkg('zsh', pacman('zsh-completions'), 'zsh').
+linux_pkg('sed', pacman('sed'), 'sed').
+linux_pkg('openssh', pacman('openssh'), 'ssh').
+linux_pkg('socklog-musl', aur('socklog-musl'), 'socklog').
+linux_pkg('sudo', pacman('sudo'), 'sudo').
+linux_pkg('util-linux', pacman('util-linux'), 'util-linux').
+pacman_pkg('which').
+linux_pkg('sysfsutils', pacman('sysfsutils'), 'sysfsutils').
+linux_pkg('procps-ng', pacman('procps-ng'), 'procps').
+linux_pkg('pciutils', pacman('pciutils'), 'pciutils').
+pacman_pkg('linux-pax-flags').
+pacman_pkg('linux').
+linux_pkg('libcgroup', aur('libcgroup'), 'libcgroup1').
+debian_pkg('cgroupfs-mount').
+aur_pkg('dar').
+pacman_pkg('par2cmdline').
+pacman_pkg('spl-git').
+pacman_pkg('spl-utils-git').
+pacman_pkg('most').
+pacman_pkg('zfs-git').
+pacman_pkg('zfs-utils-git').
+linux_pkg('bash', pacman('bash'), 'bash').
+linux_pkg('coreutils', pacman('coreutils'), 'coreutils').
+linux_pkg('daemontools', aur('daemontools'), 'daemontools').
+pacman('device-mapper').
+linux_pkg('diffutils', pacman('diffutils'), 'diffutils').
+linux_pkg('e2fsprogs', pacman('e2fsprogs'), 'e2fsprogs').
+aur_pkg('eudev').
+linux_pkg('file', pacman('file'), 'file').
+pacman_pkg('filesystem').
+linux_pkg('findutils', pacman('findutils'), 'findutils').
+pacman_pkg('glibc').
+linux_pkg('gawk', pacman('gawk'), 'gawk').
+linux_pkg('gettext', pacman('gettext'), 'gettext').
+pacman_pkg('gradm').
+linux_pkg('grep', pacman('grep'), 'grep').
+pacman_pkg('inetutils').
+linux_pkg('inotify-tools', pacman('inotify-tools'), 'inotify-tools').
+linux_pkg('iproute2', pacman('iproute2'), 'iproute2').
+pacman_pkg('iputils').
+linux_pkg('jfsutils', pacman('jfsutils'), 'jfsutils').
+linux_pkg('leafnode', pacman('leafnode'), 'leafnode').
+linux_pkg('less', pacman('less'), 'less').

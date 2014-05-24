@@ -27,3 +27,12 @@ linux_pkg('unetbootin', pacman('unetbootin'), 'unetbootin').
 
 pacman_pkg('vte').
 linux_pkg('whohas', aur('whohas'), 'whohas').
+aur_pkg('hr-git').
+aur_pkg('hterm').
+aur_pkg('hurl-git').
+linux_pkg('p7zip', pacman('p7zip'), 'p7zip').
+linux_pkg('tar', pacman('tar'), 'tar').
+linux_pkg('unzip', pacman('unzip'), 'unzip').
+linux_pkg('lzip', aur('lzip'), 'lzip').
+linux_pkg('bzip2', pacman('bzip2'), 'bzip2').
+linux_pkg('gzip', pacman('gzip'), 'gzip').

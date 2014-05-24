@@ -22,4 +22,15 @@ linux_pkg('picard', pacman('picard'), 'picard').
 pacman_pkg('pulseaudio-alsa').
 debian_pkg('pulseaudio-utils').
 debian_pkg('pulseaudio-equalizer').
+linux_pkg('alsa-utils', pacman('alsa-utils'), 'alsa-utils').
+linux_pkg('dbtoepub', aur('dbtoepub'), 'dbtoepub').
+pacman_pkg('id3').
+pacman_pkg('texlive-core-libre').
+pacman_pkg('texlive-latexextra-libre').
+linux_pkg('mbrola', aur('mbrola'), 'mbrola').
+linux_pkg('mbrola-voices-us3', aur('mbrola-voices-us3'), 'mbrola-us3').
+linux_pkg('mbrola-voices-us2', aur('mbrola-voices-us2'), 'mbrola-us2').
+linux_pkg('mbrola-voices-us1', aur('mbrola-voices-us1'), 'mbrola-us1').
+linux_pkg('libquvi-scripts-nsfw', aur('libquvi-scripts-nsfw'), 'libquvi-scripts').
+linux_pkg('espeakup', pacman('espeakup'), 'espeakup').
 debian_pkg('pulseaudio').

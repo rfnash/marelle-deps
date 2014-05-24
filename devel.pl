@@ -76,3 +76,14 @@ linux_pkg('tk', pacman('tk'), 'tk-dev').
 linux_pkg('v8', pacman('v8'), 'npm').
 %linux_pkg('v8', pacman('v8'), 'libv8-dev').
 debian_pkg('musl-tools').
+linux_pkg('texi2html', pacman('texi2html'), 'texi2html').
+linux_pkg('texinfo', pacman('texinfo'), 'texinfo').
+linux_pkg('perl', pacman('perl'), 'perl').
+linux_pkg('patch', pacman('patch'), 'patch').
+linux_pkg('m4', pacman('m4'), 'm4').
+linux_pkg('make', pacman('make'), 'make').
+linux_pkg('groff', pacman('groff'), 'groff').
+linux_pkg('gcc-multilib', pacman('gcc-multilib'), 'gcc-multilib').
+linux_pkg('fakeroot', pacman('fakeroot'), 'fakeroot').
+linux_pkg('coq-nox', aur('coq-nox'), ['coq', 'coq-theories', 'coq-doc']).
+linux_pkg('binutils', pacman('binutils'), 'binutils').

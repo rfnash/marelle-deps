@@ -125,3 +125,9 @@ linux_pkg('xorg-fonts-100dpi', pacman('xorg-fonts-100dpi-libre'), 'xfonts-100dpi
 
 
 linux_pkg('xorg-fonts-75dpi', pacman('xorg-fonts-75dpi-libre'), 'xfonts-75dpi').
+
+% TODO: add to metapackage
+aur_pkg('font-5x13').
+aur('ttf-google-fonts-git').
+linux_pkg('mplus-bitmap-fonts', aur('mplus-bitmap-fonts'), ['fonts-mplus', 'xfonts-mplus']).
+linux_pkg('ttf-mplus', aur('ttf-mplus'), 'ttf-mplus').

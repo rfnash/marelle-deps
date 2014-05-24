@@ -97,3 +97,9 @@ linux_pkg('xmahjongg', pacman('xmahjongg'), 'xmahjongg').
 
 
 linux_pkg('pokerth', pacman('pokerth'), 'pokerth').
+
+% TODO: add to metapackage
+linux_pkg('empire', aur('vms-empire'), 'empire').
+linux_pkg('xmille', aur('xmille'), 'xmille').
+aur_pkg('dwarffortress-ironhand').
+
