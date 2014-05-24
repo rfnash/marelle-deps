@@ -2,11 +2,12 @@
 % X11.pl
 % marelle-deps
 %
+
 linux_pkg('conky', pacman('conky'), 'conky').
 aur_pkg('cow-notify-git').
 linux_pkg('dmenu', aur('dmenu-xft'), 'suckless-tools').
-aur_pkg('drawterm-hg').
 debian_pkg('drawterm').
+aur_pkg('drawterm-hg').
 linux_pkg('dzen2', pacman('dzen2'), 'dzen2').
 linux_pkg('evilwm', aur('evilwm'), 'evilwm').
 debian_pkg('gnome-colors-common').
@@ -26,7 +27,6 @@ linux_pkg('unclutter', pacman('unclutter'), 'unclutter').
 linux_pkg('winswitch', aur('winswitch'), 'winswitch').
 debian_pkg('wmctrl').
 linux_pkg('wmii', pacman('wmii'), 'wmii').
-
 aur_pkg('wmjump').
 linux_pkg('xautolock', pacman('xautolock'), 'xautolock').
 linux_pkg('xbindkeys', pacman('xbindkeys'), 'xbindkeys').
@@ -49,6 +49,6 @@ linux_pkg('xorg-xlsfonts', pacman('xorg-xlsfonts'), 'x11-utils').
 debian_pkg('xpra').
 linux_pkg('xsel', pacman('xsel'), 'xsel').
 linux_pkg('xterm', pacman('xterm'), 'xterm').
-debian_pkg('xutils-dev').
 debian_pkg('xutils').
+debian_pkg('xutils-dev').
 linux_pkg('zenity', pacman('zenity'), 'zenity').
