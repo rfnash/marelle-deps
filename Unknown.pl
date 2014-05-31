@@ -46,7 +46,7 @@ linux_pkg('recutils', aur('recutils'), 'recutils').
 pacman_pkg('reflector').
 pacman_pkg('shadow').
 pacman_pkg('tabbed').
-linux_pkg('taskcoach', pacman_pkg('taskcoach'), 'taskcoach').
+linux_pkg('taskcoach', aur('taskcoach'), 'taskcoach').
 debian_pkg('taskwarrior').
 pacman_pkg('tigervnc').
 linux_pkg('tt-rss', pacman('tt-rss'), 'tt-rss').
