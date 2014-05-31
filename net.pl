@@ -23,7 +23,6 @@ linux_pkg('finger', pacman('netkit-bsd-finger'), 'finger').
 linux_pkg('firefox', pacman('firefox'), 'iceweasel').
 linux_pkg('flashplugin', pacman('flashplugin'), 'flashplugin-nonfree').
 linux_pkg('gogoc', aur('gogoc'), 'gogoc').
-linux_pkg('hexchat', aur(['hexchat-libre', 'hexchat-autoaway']), 'hexchat').
 aur_pkg('hidentd').
 linux_pkg('icedtea-plugin', pacman('icedtea-web-java7'), 'icedtea-plugin').
 debian_pkg('iceweasel').
