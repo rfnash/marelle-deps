@@ -56,3 +56,11 @@ linux_pkg('xmlto', pacman('xmlto'), 'xmlto').
 pacman_pkg('xorg-server').
 pacman_pkg('xorg-server-utils').
 pacman_pkg('xorg-util-macros').
+pacman_pkg('libxkbcommon-x11').
+pacman_pkg('pkgfile').
+pacman_pkg('vit').
+pacman_pkg('wuala').
+debian_pkg('libgroovefingerprinter-dev').
+debian_pkg('libgrooveloudness-dev').
+debian_pkg('libgrooveplayer-dev').
+debian_pkg('telnet').
