@@ -4,7 +4,6 @@
 %
 
 linux_pkg('ansible', pacman('ansible'), ['ansible', 'ansible-doc']).
-linux_pkg('autojump', pacman('autojump'), 'autojump').
 linux_pkg('bzip2', pacman('bzip2'), 'bzip2').
 linux_pkg('ddrescue', pacman('ddrescue'), 'gddrescue').
 linux_pkg('docker', pacman('docker'), 'docker.io').
