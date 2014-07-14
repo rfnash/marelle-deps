@@ -58,8 +58,7 @@ pacman_pkg('xorg-server-utils').
 pacman_pkg('xorg-util-macros').
 pacman_pkg('libxkbcommon-x11').
 pacman_pkg('pkgfile').
-pacman_pkg('vit').
-pacman_pkg('wuala').
+aur_pkg('vit').
 debian_pkg('libgroovefingerprinter-dev').
 debian_pkg('libgrooveloudness-dev').
 debian_pkg('libgrooveplayer-dev').
