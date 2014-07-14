@@ -26,7 +26,6 @@ linux_pkg('diffutils', pacman('diffutils'), 'diffutils').
 linux_pkg('dosfstools', pacman('dosfstools'), 'dosfstools').
 linux_pkg('e2fsprogs', pacman('e2fsprogs'), 'e2fsprogs').
 linux_pkg('ebtables', pacman('ebtables'), 'ebtables').
-aur_pkg('eudev').
 linux_pkg('file', pacman('file'), 'file').
 pacman_pkg('filesystem').
 linux_pkg('findutils', pacman('findutils'), 'findutils').
@@ -39,7 +38,6 @@ linux_pkg('grep', pacman('grep'), 'grep').
 linux_pkg('grub', pacman('grub'), 'grub2').
 linux_pkg('haveged', pacman('haveged'), 'haveged').
 linux_pkg('hplip', pacman('hplip'), 'hplip').
-aur_pkg('ignite-rfnash-git').
 pacman_pkg('inetutils').
 linux_pkg('inotify-tools', pacman('inotify-tools'), 'inotify-tools').
 linux_pkg('iproute2', pacman('iproute2'), 'iproute2').
@@ -91,3 +89,6 @@ debian_pkg('uswsusp').
 linux_pkg('util-linux', pacman('util-linux'), 'util-linux').
 pacman_pkg('which').
 linux_pkg('zsh', pacman('zsh-completions'), 'zsh').
+pacman_pkg('libsystemd').
+pacman_pkg('systemd').
+pacman_pkg('systemd-sysvcompat').
