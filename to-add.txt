@@ -1,13 +1,17 @@
-cairo-infinality-ultimate
 dunst
-fontconfig-infinality-ultimate
-freetype2-infinality-ultimate
 i3-wm
 i3status
+terminology
+
+# Infinality
+cairo-infinality-ultimate
+fontconfig-infinality-ultimate
+freetype2-infinality-ultimate
 lib32-cairo-infinality-ultimate
 lib32-fontconfig-infinality-ultimate
 lib32-freetype2-infinality-ultimate
-terminology
+
+# Infinality Fonts
 ttf-bh-ib
 ttf-caladea-ib
 ttf-carlito-ib
