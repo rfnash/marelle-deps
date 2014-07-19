@@ -4,28 +4,6 @@
 %
 % Installs packages for working with Pacman, the ABS, and the AUR.
 
-meta_pkg('package-management', [
-    'abs',
-    'archbootstrap-ee',
-    'arch-install-scripts',
-    'aura-bin',
-    'aurphan',
-    'aurvote',
-    'findbrokenpkgs',
-    'namcap',
-    'pacaur',
-    'pacgraph',
-    'packer',
-    'pacmatic',
-    'powerpill',
-    'update-mirrorlist',
-    'yaourt'
-    ], linux(arch)).
-meta_pkg('package-management', [
-    'debfoster',
-    'deborphan'
-    ], linux(sid)).
-
 pacman_pkg('abs').
 aur_pkg('archbootstrap-ee').
 pacman_pkg('arch-install-scripts').
