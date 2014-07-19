@@ -63,3 +63,27 @@ debian_pkg('libgroovefingerprinter-dev').
 debian_pkg('libgrooveloudness-dev').
 debian_pkg('libgrooveplayer-dev').
 debian_pkg('telnet').
+
+pacman_pkg('dunst').
+pacman_pkg('i3-wm').
+pacman_pkg('i3status').
+pacman_pkg('terminology').
+pacman_pkg('lib32-sqlite').
+pacman_pkg('monit').
+pacman_pkg('mplayer').
+pacman_pkg('netctl').
+pacman_pkg('passmenu').
+pacman_pkg('pavucontrol').
+pacman_pkg('python-docopt').
+aur_pkg('tmenu-git').
+pacman_pkg('ufw').
+pacman_pkg('upx').
+pacman_pkg('virtviewer').
+
+% Infinality
+pacman_pkg('cairo-infinality-ultimate').
+pacman_pkg('fontconfig-infinality-ultimate').
+pacman_pkg('freetype2-infinality-ultimate').
+pacman_pkg('lib32-cairo-infinality-ultimate').
+pacman_pkg('lib32-fontconfig-infinality-ultimate').
+pacman_pkg('lib32-freetype2-infinality-ultimate').
