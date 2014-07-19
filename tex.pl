@@ -3,39 +3,6 @@
 % marelle-deps
 %
 
-meta_pkg('tex', [
-    'texlive-bibtex-extra',
-    'texlive-fonts-extra',
-    'texlive-formats-extra',
-    'texlive-games',
-    'texlive-generic-extra',
-    'texlive-htmlxml',
-    'texlive-humanities',
-    'texlive-music',
-    'texlive-pictures',
-    'texlive-plain-extra',
-    'texlive-pstricks',
-    'texlive-publishers',
-    'texlive-science'
-    ], linux(arch)).
-meta_pkg('tex', [
-    'texlive',
-    'texlive-bibtex-extra',
-    'texlive-fonts-extra',
-    'texlive-formats-extra',
-    'texlive-games',
-    'texlive-generic-extra',
-    'texlive-humanities',
-    'texlive-latex-extra',
-    'texlive-music',
-    'texlive-pictures',
-    'texlive-plain-extra',
-    'texlive-pstricks',
-    'texlive-publishers',
-    'texlive-science',
-    'texlive-xetex'
-    ], linux(sid)).
-
 debian_pkg('texlive').
 linux_pkg('texlive-bibtex-extra', pacman('texlive-bibtexextra'), 'texlive-bibtex-extra').
 linux_pkg('texlive-fonts-extra', pacman('texlive-fontsextra-libre'), 'texlive-fonts-extra').

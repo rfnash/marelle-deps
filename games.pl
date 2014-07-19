@@ -3,51 +3,6 @@
 % marelle-deps
 %
 
-meta_pkg('games', [
-    'angband',
-    'boswars',
-    'ccgo',
-    'cgoban',
-    %'crossfire-client',
-    'freedink',
-    'gnubg',
-    'hyperrogue',
-    %'nethack-el',
-    'nethack-x11',
-    'oolite',
-    'pokerth',
-    'stone-soup',
-    'terasology',
-    'tome',
-    'wesnoth',
-    %'xbattle',
-    'xmahjongg',
-    'dwarffortress-ironhand',
-    'empire',
-    'xmille'
-    ], linux(arch)).
-
-meta_pkg('games', [
-    'angband',
-    'boswars',
-    'cgoban',
-    'crossfire-client',
-    'freedink',
-    'gnubg',
-    'hyperrogue',
-    'nethack-el',
-    'nethack-x11',
-    'oolite',
-    'pokerth',
-    'stone-soup',
-    'tome',
-    'wesnoth',
-    'xbattle',
-    'xmahjongg',
-    'empire',
-    'xmille'
-    ], linux(sid)).
-
 linux_pkg('angband', pacman('angband'), 'angband').
 linux_pkg('boswars', aur('boswars'), 'boswars').
 pacman_pkg('ccgo').
