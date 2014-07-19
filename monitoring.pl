@@ -4,7 +4,6 @@
 %
 linux_pkg('arm', aur('arm'), 'tor-arm').
 linux_pkg('atop', pacman('atop'), 'atop').
-linux_pkg('atop', pacman('atop'), 'atop').
 linux_pkg('collectd', pacman('collectd'), 'collectd').
 linux_pkg('htop', aur('htop-solarized-vi'), 'htop').
 linux_pkg('iotop', pacman('iotop'), 'iotop').
